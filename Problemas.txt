@@ -1,0 +1,24 @@
+Problema:
+sincronia del tiempo del reloj con el tiempo de respuesta del reloj:
+se pretende que se coloque solo una ficha por presion, sin embargo, las iteraciones del reloj son practicamente constante, el toque 
+de "entrada" debe ser de unos pocos nanosegundos para evitar colocaciones indeseadas:
+si el boton se deja presionado se coloca una ficha en cada ciclo de reloj. Deberia colocarse 1 ficha por ocasion que se presione.
+Solucion:
+se soluciono con un contador de un bit: se mantiene en falling edge (se activa solo cuando esta en falling edge), se activa apenas se apague (se almacena cuando se suelta, cuando el reloj se enciende, el 1 pasa y se activa el mecanismo de colocar ficha). De esa forma previene que se coloque mas de una ficha por presion (incluso cuando se deja presionado).
+
+Problema:
+Se debe comenzar en 1 y pasar a 2 cuando se presiona un boton. (Alternar jugadores).
+
+Solucion:
+2 contadores, coloca uno de ellos en 1 y el otro en 2.  
+
+Problema:
+se cambia de ficha por columnas, pero debe ser un cambio constante para todo el tablero. 
+
+Solucion:
+
+Proxima semana:
+1) algoritmo para verificar jugadas
+2) algoritmo para determinar jugador
+3) corregir error de saltarse turnos
+
