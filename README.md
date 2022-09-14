@@ -29,6 +29,34 @@ IMAGENES ILUSTRATIVAS:<br/>
 
 ![diseno](https://user-images.githubusercontent.com/102835455/188782334-08c5e605-a5ea-42d2-9c40-8b864d7244d8.png)
 
+AVANCES:<br/>
+
+* Implementación en logisim:<br/>
+  * Primera semana:<br/>
+  La primera semana se busco implementar la interfaz del tablero, para el cuál se utilizó una matriz de leds interconectadas a una caja que contiene el ciruito encargado de verificar que la ficha sea colocada en el lugar correto, y a la vez conectada a otro circuito que verifica el turno de cada jugador <br/>
+    * Problemas encontrados:<br/>
+      Se puntuaron todos los puntos faltantes, que son necesarios para el correcto funcionamiento del juego. <br/>
+  
+  * Segunda semana: <br/>
+    Se implemento el circuito de verificación que coloca una ficha en el tablero, solo si esta disponible el espacio y cambia el color del led dependiendo del jugador que este en turno en ese momento <br/>
+  
+    * Problemas encontrados:<br/>
+      * La sincronía del tiempo del reloj con el tiempo de respuesta del mismo:<br/>
+se pretende que se coloque solo una ficha por presión, sin embargo, las iteraciones del reloj son prácticamente constante, el toque 
+de "entrada" debe ser de unos pocos nanosegundos para evitar colocaciones indeseadas:
+si el botón se deja presionado se coloca una ficha en cada ciclo de reloj. Deberia colocarse 1 ficha por ocasión que se presione.<br/>
+
+      * Se debe comenzar en 1 y pasar a 2 cuando se presiona un botón. (Alternar jugadores).<br/>
+
+      * Se cambia de ficha por columnas, pero debe ser un cambio constante para todo el tablero. <br/>
+
+
+    * Soluciones:<br/>
+      * Se soluciono con un contador de un bit: se mantiene en falling edge (se activa solo cuando esta en falling edge), se activa apenas se apague (se almacena cuando se suelta, cuando el reloj se enciende, el 1 pasa y se activa el mecanismo de colocar ficha). De esa forma previene que se coloque mas de una ficha por presión (incluso cuando se deja presionado).<br/>
+
+      * 2 contadores, coloca uno de ellos en 1 y el otro en 2. <br/> 
+
+
 DOCUMENTO ESCRITO:
 https://docs.google.com/document/d/1BfGdqtu4Y8jVS69qu4cW3j3yB31Auw5hteyRXAAXGY0/edit?usp=sharing<br/>
 
