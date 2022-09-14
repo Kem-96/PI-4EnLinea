@@ -54,7 +54,7 @@ si el botón se deja presionado se coloca una ficha en cada ciclo de reloj. Debe
     * Soluciones:<br/>
       * Se soluciono con un contador de un bit: se mantiene en falling edge (se activa solo cuando esta en falling edge), se activa apenas se apague (se almacena cuando se suelta, cuando el reloj se enciende, el 1 pasa y se activa el mecanismo de colocar ficha). De esa forma previene que se coloque mas de una ficha por presión (incluso cuando se deja presionado).<br/>
 
-      * 2 contadores, coloca uno de ellos en 1 y el otro en 2. <br/> 
+      * Se opto por agregar 2 contadores, se coloca uno de ellos en 1 y el otro en 2. <br/> 
 
 
 DOCUMENTO ESCRITO:
