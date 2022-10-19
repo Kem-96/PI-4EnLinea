@@ -1,1 +1,1 @@
-%include "Konnect4Tablero.s"
+%include "Konnect4.s"
