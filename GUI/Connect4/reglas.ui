@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1151</width>
-    <height>561</height>
+    <width>495</width>
+    <height>415</height>
    </rect>
   </property>
   <property name="palette">
@@ -54,7 +54,7 @@
    </font>
   </property>
   <property name="cursor">
-   <cursorShape>BlankCursor</cursorShape>
+   <cursorShape>PointingHandCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>Reglas</string>
@@ -66,8 +66,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>530</x>
-     <y>0</y>
+     <x>200</x>
+     <y>20</y>
      <width>161</width>
      <height>51</height>
     </rect>
@@ -85,16 +85,15 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>20</x>
      <y>70</y>
      <width>241</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 14pt &quot;Modern&quot;;
-font: 20pt &quot;Modern&quot;;
-color: rgb(255, 255, 255)</string>
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Trebuchet MS&quot;;</string>
    </property>
    <property name="text">
     <string>1. 2 Jugadores.</string>
@@ -103,16 +102,15 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>140</y>
+     <x>20</x>
+     <y>120</y>
      <width>1101</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 14pt &quot;Modern&quot;;
-font: 20pt &quot;Modern&quot;;
-color: rgb(255, 255, 255)</string>
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Trebuchet MS&quot;;</string>
    </property>
    <property name="text">
     <string>2. Se deben colocar fichas hasta que el tablero se llene o un jugador gane.</string>
@@ -121,16 +119,18 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>230</y>
+     <x>20</x>
+     <y>190</y>
      <width>831</width>
      <height>51</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
    <property name="styleSheet">
-    <string notr="true">font: 14pt &quot;Modern&quot;;
-font: 20pt &quot;Modern&quot;;
-color: rgb(255, 255, 255)</string>
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Trebuchet MS&quot;;</string>
    </property>
    <property name="text">
     <string>3. Se gana al colocar 4 fichas en linea.</string>
@@ -139,16 +139,15 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>310</y>
+     <x>20</x>
+     <y>260</y>
      <width>921</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 14pt &quot;Modern&quot;;
-font: 20pt &quot;Modern&quot;;
-color: rgb(255, 255, 255)</string>
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Trebuchet MS&quot;;</string>
    </property>
    <property name="text">
     <string>4. Las lineas pueden ser verticales, horizontales o en diagonal.</string>
@@ -157,19 +156,56 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>390</y>
+     <x>20</x>
+     <y>330</y>
      <width>1141</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 14pt &quot;Modern&quot;;
-font: 20pt &quot;Modern&quot;;
-color: rgb(255, 255, 255)</string>
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Trebuchet MS&quot;;</string>
    </property>
    <property name="text">
     <string>5. El turno de los jugadores se alterna. Se puede colocar una ficha por turno.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_volverR">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>370</y>
+     <width>80</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: solid rgb(132, 57, 82);
+	border: 5 px solid rgb(93, 40, 57);
+	padding: 5 px;
+	
+	color:rgb(255, 255, 255);
+	font: 9pt &quot;Modern&quot;;
+
+}
+
+QPushButton:pressed{
+	color:rgb(255, 255, 255);
+	background-color: solid rgb(132, 57, 82);
+	border: 5 px solid rgb(93, 40, 57);
+	padding: 5 px;
+	
+	font: 9pt &quot;Modern&quot;;
+	
+	
+	font: 9pt &quot;Modern&quot;;
+	text-decoration: line-through;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt;-</string>
    </property>
   </widget>
  </widget>

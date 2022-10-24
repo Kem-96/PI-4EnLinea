@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>350</width>
-    <height>350</height>
+    <width>495</width>
+    <height>415</height>
    </rect>
   </property>
   <property name="palette">
@@ -64,8 +64,8 @@
    <widget class="QPushButton" name="b_iniciar">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>60</y>
+      <x>190</x>
+      <y>80</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -218,7 +218,7 @@ QPushButton:pressed{
    <widget class="QLabel" name="menu">
     <property name="geometry">
      <rect>
-      <x>130</x>
+      <x>190</x>
       <y>0</y>
       <width>81</width>
       <height>41</height>
@@ -357,8 +357,8 @@ text-decoration: underline;</string>
    <widget class="QPushButton" name="b_integrantes">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>110</y>
+      <x>160</x>
+      <y>140</y>
       <width>161</width>
       <height>61</height>
      </rect>
@@ -481,6 +481,12 @@ text-decoration: underline;</string>
       </disabled>
      </palette>
     </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	background-color: solid rgb(132, 57, 82);
@@ -511,8 +517,8 @@ QPushButton:pressed{
    <widget class="QPushButton" name="b_reglas">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>170</y>
+      <x>190</x>
+      <y>230</y>
       <width>91</width>
       <height>61</height>
      </rect>
@@ -665,8 +671,8 @@ QPushButton:pressed{
    <widget class="QPushButton" name="b_salir">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>240</y>
+      <x>190</x>
+      <y>320</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -822,7 +828,7 @@ QPushButton:pressed{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>350</width>
+     <width>495</width>
      <height>21</height>
     </rect>
    </property>

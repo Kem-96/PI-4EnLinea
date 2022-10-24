@@ -3,6 +3,9 @@
 #include "integrantes.h"
 #include "reglas.h"
 
+Reglas *reg;
+Integrantes *inte;
+
 Menu::Menu(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Menu)
@@ -18,16 +21,21 @@ Menu::~Menu()
 
 void Menu::on_b_integrantes_clicked()
 {
-    Integrantes inte;
-    inte.setModal(true);
-    inte.exec();
+    hide();
+    inte = new Integrantes(this);
+    inte->show();
 }
 
 
 void Menu::on_b_reglas_clicked()
 {
-    Reglas reg;
-    reg.setModal(true);
-    reg.exec();
+    hide();
+    reg = new Reglas(this);
+    reg->show();
+}
+
+void Menu::on_b_salir_clicked()
+{
+    close();
 }
 

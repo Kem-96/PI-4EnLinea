@@ -15,6 +15,9 @@ public:
     explicit Integrantes(QWidget *parent = nullptr);
     ~Integrantes();
 
+private slots:
+    void on_b_volverI_clicked();
+
 private:
     Ui::Integrantes *ui;
 };

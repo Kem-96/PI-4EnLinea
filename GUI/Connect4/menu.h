@@ -20,6 +20,8 @@ private slots:
 
     void on_b_reglas_clicked();
 
+    void on_b_salir_clicked();
+
 private:
     Ui::Menu *ui;
 };

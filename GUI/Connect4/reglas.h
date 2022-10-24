@@ -15,6 +15,9 @@ public:
     explicit Reglas(QWidget *parent = nullptr);
     ~Reglas();
 
+private slots:
+    void on_b_volverR_clicked();
+
 private:
     Ui::Reglas *ui;
 };
