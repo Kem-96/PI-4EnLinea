@@ -17,7 +17,7 @@ global _start
     lenLleno: equ $-msgLleno
     tableroLleno: db "El tablero está lleno, terminó el juego...", 0xa, 0
     lenTableroLleno: equ $-tableroLleno
-    msgNuevo: db "Desea jugar de nuevo? Y/N", 0
+    msgNuevo: db "¿Desea jugar de nuevo? (Y/N)", 0
     lenNuevo: equ $-msgNuevo
     
   section .bss
@@ -209,9 +209,7 @@ global _start
   pop rax
   cmp bl, cl
   je setMatch
-  cmp bl, cl
   jne auxJump
-  jmp comprobarFichas
 
   auxJump:
   mov rax, [tempPosix]
