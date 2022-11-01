@@ -36,7 +36,7 @@ void Menu::crearEscena()
     Q_ASSERT(this->botonInicio == nullptr);
     this->botonInicio = new QGraphicsSvgItem();
     this->botonInicio->setSharedRenderer(this->svgRenderer);
-    this->botonInicio->setElementId("play2.svg");
-    this->botonInicio->setPos(180, 240);
+    this->botonInicio->setElementId("playBoton");
+    this->botonInicio->setPos(180, 300);
     this->addItem(this->botonInicio);
 }

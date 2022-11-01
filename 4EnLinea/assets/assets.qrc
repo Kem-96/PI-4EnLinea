@@ -1,11 +1,5 @@
 <RCC>
-    <qresource prefix="/images">
-        <file>assets.svg</file>
-        <file>play2.svg</file>
-    </qresource>
-    <qresource prefix="/sounds">
-        <file>success.wav</file>
-        <file>failure.wav</file>
-        <file>tick.wav</file>
+    <qresource prefix="/assets">
+        <file>imagenes.svg</file>
     </qresource>
 </RCC>

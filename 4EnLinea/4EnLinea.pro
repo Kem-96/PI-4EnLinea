@@ -22,8 +22,7 @@ HEADERS += \
 
 
 RESOURCES += \
-  assets/assets.qrc \
-  assets/assets.qrc
+    assets/assets.qrc
   assets/play2.qrc
 
 # Default rules for deployment.

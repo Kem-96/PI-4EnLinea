@@ -5,7 +5,7 @@
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
-    , svgRenderer(new QSvgRenderer(QString(":/images/play2.svg"),  this))
+    , svgRenderer(new QSvgRenderer(QString(":/assets/imagenes.svg"),  this))
     , menu{svgRenderer}
 {
 
