@@ -10,6 +10,7 @@ VentanaJuego::VentanaJuego(QWidget *parent)
 {
 
     this->setScene(&this->menu);
+#if !def
     this->resize(580, 420);
 
 }

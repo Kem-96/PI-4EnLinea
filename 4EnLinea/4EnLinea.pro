@@ -14,6 +14,8 @@ SOURCES += \
     src/VentanaJuego.cpp \
     src/Conecta4.cpp \
     src/main.cpp
+    src/Konnect4.s
+    src/macros.s
 
 HEADERS += \
     src/Menu.hpp \

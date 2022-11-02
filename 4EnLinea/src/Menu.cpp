@@ -24,12 +24,12 @@ void Menu::crearEscena()
 
     Q_ASSERT(this->instrucciones == nullptr);
     this->instrucciones = new QGraphicsTextItem(
-                "Instrucciones: \nCada jugador coloca una \nficha de su color \nen una columna, él \nque consigue ubicar \n4 fichas del mismo color \nseguidas en horizontal, vertical \nu oblicuo gana.");
+                "Instrucciones: \nCada jugador coloca una \nficha de su color en una \ncolumna, él que consigue \nubicar 4 fichas del mismo \ncolor seguidas en horizontal, \nvertical u oblicuo gana.");
     this->instrucciones->setPos(290, 145);
     this->addItem(this->instrucciones);
 
     Q_ASSERT(this->integrantes == nullptr);
-    this->integrantes = new QGraphicsTextItem("Integrantes: \n Nathan Murillo \n Issac Vargas \n Rodrigo Mendoza \n Kembly Paniagua");
+    this->integrantes = new QGraphicsTextItem("Integrantes: \n  -Nathan Murillo \n  -Issac Vargas \n  -Rodrigo Mendoza \n  -Kembly Paniagua");
     this->integrantes->setPos(25, 145);
     this->addItem(this->integrantes);
 
