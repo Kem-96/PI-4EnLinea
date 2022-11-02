@@ -2,6 +2,7 @@
 #include <QGraphicsTextItem>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
+#include "BotonJuego.hpp"
 #include "Menu.hpp"
 
 Menu::Menu(QSvgRenderer* svgRenderer, QObject *parent)
@@ -34,9 +35,10 @@ void Menu::crearEscena()
     this->addItem(this->integrantes);
 
     Q_ASSERT(this->botonInicio == nullptr);
-    this->botonInicio = new QGraphicsSvgItem();
+    this->botonInicio = new BotonJuego();
     this->botonInicio->setSharedRenderer(this->svgRenderer);
     this->botonInicio->setElementId("playBoton");
     this->botonInicio->setPos(180, 300);
     this->addItem(this->botonInicio);
+    this->connect(this->botonInicio, &BotonJuego::clicked, this, &Menu::botonDePlayPrecionado);
 }

@@ -14,9 +14,14 @@ class VentanaJuego : public QGraphicsView
 protected:
     QSvgRenderer* svgRenderer = nullptr;
     Menu menu; //crea una escena manejada por la ventana del juego
+    //InicioJuego inicioJuego;
 
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
+
+//para crear subrrutinas
+protected slots:
+    void empezarJuego();
 
 
 };

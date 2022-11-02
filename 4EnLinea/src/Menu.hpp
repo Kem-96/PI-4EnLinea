@@ -3,6 +3,7 @@
 
 #include <QGraphicsScene>
 
+class BotonJuego;
 class QGraphicsTextItem;
 class QSvgRenderer;
 class QGraphicsSvgItem;
@@ -17,11 +18,14 @@ protected:
     QGraphicsTextItem* tituloJuego = nullptr;
     QGraphicsTextItem* instrucciones = nullptr;
     QGraphicsTextItem* integrantes = nullptr;
-    QGraphicsSvgItem* botonInicio = nullptr;
+    BotonJuego* botonInicio = nullptr;
 
 
 public:
     explicit Menu(QSvgRenderer* svgRenderer, QObject* parent = nullptr);
+
+signals:
+    void botonDePlayPrecionado();
 
 protected:
     void crearEscena();

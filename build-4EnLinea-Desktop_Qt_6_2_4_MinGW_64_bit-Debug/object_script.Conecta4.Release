@@ -1,0 +1,10 @@
+release/BotonJuego.o
+release/Menu.o
+release/VentanaJuego.o
+release/Conecta4.o
+release/main.o
+release/qrc_assets.o
+release/moc_BotonJuego.o
+release/moc_Menu.o
+release/moc_VentanaJuego.o
+release/moc_Conecta4.o
