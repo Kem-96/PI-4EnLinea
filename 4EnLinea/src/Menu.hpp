@@ -1,20 +1,18 @@
 #ifndef MENU_HPP
 #define MENU_HPP
 
-#include <QGraphicsScene>
+#include "EscenaJuego.hpp"
 
 class BotonJuego;
 class QGraphicsTextItem;
-class QSvgRenderer;
 class QGraphicsSvgItem;
 
-class Menu : public QGraphicsScene
+class Menu : public EscenaJuego
 {
     Q_OBJECT
     Q_DISABLE_COPY_MOVE(Menu)//esto es para desabilitar copias vuelve al mismo menu
 
 protected:
-    QSvgRenderer* svgRenderer;
     QGraphicsTextItem* tituloJuego = nullptr;
     QGraphicsTextItem* instrucciones = nullptr;
     QGraphicsTextItem* integrantes = nullptr;

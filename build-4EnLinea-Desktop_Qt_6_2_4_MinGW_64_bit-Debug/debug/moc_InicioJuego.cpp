@@ -61,7 +61,7 @@ void InicioJuego::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 }
 
 const QMetaObject InicioJuego::staticMetaObject = { {
-    QMetaObject::SuperData::link<QGraphicsScene::staticMetaObject>(),
+    QMetaObject::SuperData::link<EscenaJuego::staticMetaObject>(),
     qt_meta_stringdata_InicioJuego.offsetsAndSize,
     qt_meta_data_InicioJuego,
     qt_static_metacall,
@@ -86,12 +86,12 @@ void *InicioJuego::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_InicioJuego.stringdata0))
         return static_cast<void*>(this);
-    return QGraphicsScene::qt_metacast(_clname);
+    return EscenaJuego::qt_metacast(_clname);
 }
 
 int InicioJuego::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QGraphicsScene::qt_metacall(_c, _id, _a);
+    _id = EscenaJuego::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP

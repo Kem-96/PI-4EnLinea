@@ -11,6 +11,8 @@ CONFIG += c++17
 
 SOURCES += \
     src/BotonJuego.cpp \
+    src/EscenaJuego.cpp \
+    src/InicioJuego.cpp \
     src/Menu.cpp \
     src/VentanaJuego.cpp \
     src/Conecta4.cpp \
@@ -20,6 +22,8 @@ SOURCES += \
 
 HEADERS += \
     src/BotonJuego.hpp \
+    src/EscenaJuego.hpp \
+    src/InicioJuego.hpp \
     src/Menu.hpp \
     src/VentanaJuego.hpp \
     src/Conecta4.hpp
@@ -33,3 +37,7 @@ RESOURCES += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    src/Konnect4.s \
+    src/macros.s

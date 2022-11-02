@@ -1,10 +1,14 @@
 debug/BotonJuego.o
+debug/EscenaJuego.o
+debug/InicioJuego.o
 debug/Menu.o
 debug/VentanaJuego.o
 debug/Conecta4.o
 debug/main.o
 debug/qrc_assets.o
 debug/moc_BotonJuego.o
+debug/moc_EscenaJuego.o
+debug/moc_InicioJuego.o
 debug/moc_Menu.o
 debug/moc_VentanaJuego.o
 debug/moc_Conecta4.o
