@@ -8,8 +8,9 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     , svgRenderer(new QSvgRenderer(QString(":/assets/imagenes.svg"),  this))
     , menu{svgRenderer}
 {
-
     this->setScene(&this->menu);
-    this->resize(580, 420);
 
+#if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
+    this->resize(580, 420);
+#endif
 }
