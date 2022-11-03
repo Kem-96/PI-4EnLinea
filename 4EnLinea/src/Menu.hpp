@@ -14,8 +14,8 @@ class Menu : public EscenaJuego
 
 protected:
     QGraphicsTextItem* tituloJuego = nullptr;
-    QGraphicsTextItem* instrucciones = nullptr;
-    QGraphicsTextItem* integrantes = nullptr;
+    BotonJuego* botonInstrucciones = nullptr;
+    BotonJuego* botonIntegrantes = nullptr;
     BotonJuego* botonInicio = nullptr;
 
 
@@ -23,13 +23,15 @@ public:
     explicit Menu(QSvgRenderer* svgRenderer, QObject* parent = nullptr);
 
 signals:
-    void botonDePlayPrecionado();
+    void botonDePlayPresionado();
+    void botonIntegrantesPresionado();
+    void botonInstruccionesPresionado();
 
 protected:
     void crearEscena();
 
 
-signals:
+
 
 };
 

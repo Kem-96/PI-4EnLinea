@@ -3,6 +3,8 @@
 
 #include <QGraphicsView>
 #include "InicioJuego.hpp"
+#include "Integrantes.hpp"
+#include "Instrucciones.hpp"
 #include "Menu.hpp"
 
 class QSvgRenderer;
@@ -15,6 +17,8 @@ protected:
     QSvgRenderer* svgRenderer = nullptr;
     Menu menu; //crea una escena manejada por la ventana del juego
     InicioJuego inicioJuego;
+    Integrantes integrantes;
+    Instrucciones instrucciones;
 
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
@@ -22,6 +26,8 @@ public:
 //para crear subrrutinas
 protected slots:
     void empezarJuego();
+    void mostrarIntegrantes();
+    void mostrarInstrucciones();
 
 
 };

@@ -22,22 +22,29 @@ void Menu::crearEscena()
     this->tituloJuego->setPos(tituloJuegoX, 25);
     this->addItem(this->tituloJuego);
 
-    Q_ASSERT(this->instrucciones == nullptr);
-    this->instrucciones = new QGraphicsTextItem(
-                "Instrucciones: \nCada jugador coloca una \nficha de su color en una \ncolumna, él que consigue \nubicar 4 fichas del mismo \ncolor seguidas en horizontal, \nvertical u oblicuo gana.");
-    this->instrucciones->setPos(290, 145);
-    this->addItem(this->instrucciones);
+    Q_ASSERT(this->botonInstrucciones == nullptr);
+    this->botonInstrucciones = new BotonJuego();
+    this->botonInstrucciones->setSharedRenderer(this->svgRenderer);
+    this->botonInstrucciones->setElementId("Informacion");
+    this->botonInstrucciones->setPos(380, 145);
+    this->addItem(this->botonInstrucciones);
+    this->connect(this->botonInstrucciones, &BotonJuego::clicked, this, &Menu::botonInstruccionesPresionado);
 
-    Q_ASSERT(this->integrantes == nullptr);
-    this->integrantes = new QGraphicsTextItem("Integrantes: \n  -Nathan Murillo \n  -Issac Vargas \n  -Rodrigo Mendoza \n  -Kembly Paniagua");
-    this->integrantes->setPos(25, 145);
-    this->addItem(this->integrantes);
+
+    Q_ASSERT(this->botonIntegrantes == nullptr);
+    this->botonIntegrantes = new BotonJuego();
+    this->botonIntegrantes->setSharedRenderer(this->svgRenderer);
+    this->botonIntegrantes->setElementId("integrantes");
+    this->botonIntegrantes->setPos(25, 145);
+    this->addItem(this->botonIntegrantes);
+    this->connect(this->botonIntegrantes, &BotonJuego::clicked, this, &Menu::botonIntegrantesPresionado);
+
 
     Q_ASSERT(this->botonInicio == nullptr);
     this->botonInicio = new BotonJuego();
     this->botonInicio->setSharedRenderer(this->svgRenderer);
     this->botonInicio->setElementId("playBoton");
-    this->botonInicio->setPos(180, 300);
+    this->botonInicio->setPos(200, 300);
     this->addItem(this->botonInicio);
-    this->connect(this->botonInicio, &BotonJuego::clicked, this, &Menu::botonDePlayPrecionado);
+    this->connect(this->botonInicio, &BotonJuego::clicked, this, &Menu::botonDePlayPresionado);
 }
