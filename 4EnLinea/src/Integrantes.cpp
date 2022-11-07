@@ -1,6 +1,7 @@
 #include <QGraphicsTextItem>
 #include <QSvgRenderer>
 #include <QPushButton>
+#include "BotonJuego.hpp"
 #include "Integrantes.hpp"
 
 Integrantes::Integrantes(QSvgRenderer* svgRenderer, QObject *parent)
@@ -17,6 +18,14 @@ void Integrantes::crearEscenaIntegrantes()
     this->integrantes->setFont(fuenteIntegrantes);
     this->integrantes->setPos(25, 145);
     this->addItem(this->integrantes);
+
+    Q_ASSERT(this->botonAtras == nullptr);
+    this->botonAtras = new BotonJuego();
+    this->botonAtras->setSharedRenderer(this->svgRenderer);
+    this->botonAtras->setElementId("botonAtras");
+    this->botonAtras->setPos(-40, 450);
+    this->addItem(this->botonAtras);
+    this->connect(this->botonAtras, &BotonJuego::clicked, this, &Integrantes::botonAtrasPresionado);
 
 
 

@@ -28,6 +28,8 @@ protected slots:
     void empezarJuego();
     void mostrarIntegrantes();
     void mostrarInstrucciones();
+    void volverMenu();
+
 
 
 };

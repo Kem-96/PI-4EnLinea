@@ -13,7 +13,9 @@ class InicioJuego : public EscenaJuego
 public:
     explicit InicioJuego(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
 
-
+protected:
+    QGraphicsTextItem* titulo = nullptr;
+    void crearEscenaInicioJuego();
 
 
 };

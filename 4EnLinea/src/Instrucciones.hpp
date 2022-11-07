@@ -4,6 +4,7 @@
 #include "EscenaJuego.hpp"
 
 class QGraphicsTextItem;
+class BotonJuego;
 
 class Instrucciones : public EscenaJuego
 {
@@ -12,11 +13,13 @@ class Instrucciones : public EscenaJuego
 
 protected:
     QGraphicsTextItem* instrucciones = nullptr;
+    BotonJuego* botonAtras = nullptr;
 
 public:
     explicit Instrucciones(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
 
-
+signals:
+    void botonAtrasPresionado();
 
 protected:
     void crearEscenaInstrucciones();

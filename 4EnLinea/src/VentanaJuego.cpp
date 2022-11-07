@@ -15,6 +15,9 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->connect(&this->menu, &Menu::botonDePlayPresionado, this, &VentanaJuego::empezarJuego);
     this->connect(&this->menu, &Menu::botonIntegrantesPresionado, this, &VentanaJuego::mostrarIntegrantes);
     this->connect(&this->menu, &Menu::botonInstruccionesPresionado, this, &VentanaJuego::mostrarInstrucciones);
+    this->connect(&this->integrantes, &Integrantes::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
+    this->connect(&this->instrucciones, &Instrucciones::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
+
 
 #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->resize(580, 450);
@@ -42,4 +45,9 @@ void VentanaJuego::mostrarIntegrantes()
 void VentanaJuego::mostrarInstrucciones()
 {
     this->setScene(&this->instrucciones);
+}
+
+void VentanaJuego::volverMenu()
+{
+    this->setScene(&this->menu);
 }

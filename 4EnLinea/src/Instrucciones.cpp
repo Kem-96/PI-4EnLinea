@@ -1,5 +1,6 @@
 #include <QGraphicsTextItem>
 #include <QSvgRenderer>
+#include "BotonJuego.hpp"
 #include "Instrucciones.hpp"
 
 Instrucciones::Instrucciones(QSvgRenderer* svgRenderer,QObject *parent)
@@ -16,4 +17,13 @@ void Instrucciones::crearEscenaInstrucciones()
     this->instrucciones->setFont(fuenteInstrucciones);
     this->instrucciones->setPos(290, 145);
     this->addItem(this->instrucciones);
+
+
+    Q_ASSERT(this->botonAtras == nullptr);
+    this->botonAtras = new BotonJuego();
+    this->botonAtras->setSharedRenderer(this->svgRenderer);
+    this->botonAtras->setElementId("botonAtras");
+    this->botonAtras->setPos(260, 490);
+    this->addItem(this->botonAtras);
+    this->connect(this->botonAtras, &BotonJuego::clicked, this, &Instrucciones::botonAtrasPresionado);
 }
