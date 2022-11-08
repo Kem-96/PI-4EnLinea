@@ -24,7 +24,55 @@ void InicioJuego::crearEscenaInicioJuego()
     this->fila1 = new BotonJuego();
     this->fila1->setSharedRenderer(this->svgRenderer);
     this->fila1->setElementId("botonJuego3");
-    this->fila1->setPos(113, 70);
+    this->fila1->setPos(118, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila2 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(172, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila3 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(226, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila4 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(280, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila5 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(334, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila6 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(388, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->fila7 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(442, 70);
     this->addItem(this->fila1);
     this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
 

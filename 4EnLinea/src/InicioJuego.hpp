@@ -17,6 +17,12 @@ public:
 protected:
     QGraphicsTextItem* titulo = nullptr;
     BotonJuego* fila1 = nullptr;
+    BotonJuego* fila2 = nullptr;
+    BotonJuego* fila3 = nullptr;
+    BotonJuego* fila4 = nullptr;
+    BotonJuego* fila5 = nullptr;
+    BotonJuego* fila6 = nullptr;
+    BotonJuego* fila7 = nullptr;
     QGraphicsSvgItem* tablero = nullptr;
     QGraphicsSvgItem* ficha1 = nullptr;
     QGraphicsSvgItem* ficha2 = nullptr;
