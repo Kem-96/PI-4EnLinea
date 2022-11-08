@@ -16,14 +16,14 @@ void Integrantes::crearEscenaIntegrantes()
     Q_ASSERT(this->integrantes == nullptr);
     this->integrantes = new QGraphicsTextItem("Integrantes: \n  -Nathan Murillo \n  -Issac Vargas \n  -Rodrigo Mendoza \n  -Kembly Paniagua");
     this->integrantes->setFont(fuenteIntegrantes);
-    this->integrantes->setPos(25, 145);
+    this->integrantes->setPos(120, 145);
     this->addItem(this->integrantes);
 
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(-40, 450);
+    this->botonAtras->setPos(100, 450);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &Integrantes::botonAtrasPresionado);
 

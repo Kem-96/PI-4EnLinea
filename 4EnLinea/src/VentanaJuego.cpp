@@ -24,6 +24,11 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->resize(600, 550);
 #endif
 
+    this->menu.setSceneRect(this->rect());
+    this->inicioJuego.setSceneRect(this->rect());
+    this->integrantes.setSceneRect(this->rect());
+    this->instrucciones.setSceneRect(this->rect());
+
     //esto desactiva las barras
     this->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     this->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);

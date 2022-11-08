@@ -15,7 +15,7 @@ void Instrucciones::crearEscenaInstrucciones()
     Q_ASSERT(this->instrucciones == nullptr);
     this->instrucciones = new QGraphicsTextItem("Instrucciones: \nCada jugador coloca una \nficha de su color en una \ncolumna, él que consigue \nubicar 4 fichas del mismo \ncolor seguidas en horizontal, \nvertical u oblicuo gana.");
     this->instrucciones->setFont(fuenteInstrucciones);
-    this->instrucciones->setPos(290, 145);
+    this->instrucciones->setPos(80, 120);
     this->addItem(this->instrucciones);
 
 
@@ -23,7 +23,7 @@ void Instrucciones::crearEscenaInstrucciones()
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(260, 490);
+    this->botonAtras->setPos(70, 470);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &Instrucciones::botonAtrasPresionado);
 }

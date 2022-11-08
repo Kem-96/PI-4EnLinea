@@ -18,15 +18,15 @@ void Menu::crearEscena()
     Q_ASSERT(this->tituloJuego == nullptr);
     this->tituloJuego = new QGraphicsTextItem("Conecta 4");
     this->tituloJuego->setFont(tituloFuente);
-    qreal tituloJuegoX = (480 - this->tituloJuego->boundingRect().width())/2.0;
-    this->tituloJuego->setPos(tituloJuegoX, 25);
+    qreal tituloJuegoX = (600 - this->tituloJuego->boundingRect().width())/2.0;
+    this->tituloJuego->setPos(tituloJuegoX, 80);
     this->addItem(this->tituloJuego);
 
     Q_ASSERT(this->botonInstrucciones == nullptr);
     this->botonInstrucciones = new BotonJuego();
     this->botonInstrucciones->setSharedRenderer(this->svgRenderer);
     this->botonInstrucciones->setElementId("Informacion");
-    this->botonInstrucciones->setPos(380, 145);
+    this->botonInstrucciones->setPos(470, 250);
     this->addItem(this->botonInstrucciones);
     this->connect(this->botonInstrucciones, &BotonJuego::clicked, this, &Menu::botonInstruccionesPresionado);
 
@@ -35,7 +35,7 @@ void Menu::crearEscena()
     this->botonIntegrantes = new BotonJuego();
     this->botonIntegrantes->setSharedRenderer(this->svgRenderer);
     this->botonIntegrantes->setElementId("integrantes");
-    this->botonIntegrantes->setPos(25, 145);
+    this->botonIntegrantes->setPos(70, 250);
     this->addItem(this->botonIntegrantes);
     this->connect(this->botonIntegrantes, &BotonJuego::clicked, this, &Menu::botonIntegrantesPresionado);
 
@@ -44,7 +44,7 @@ void Menu::crearEscena()
     this->botonInicio = new BotonJuego();
     this->botonInicio->setSharedRenderer(this->svgRenderer);
     this->botonInicio->setElementId("playBoton");
-    this->botonInicio->setPos(200, 300);
+    this->botonInicio->setPos(250, 390);
     this->addItem(this->botonInicio);
     this->connect(this->botonInicio, &BotonJuego::clicked, this, &Menu::botonDePlayPresionado);
 }
