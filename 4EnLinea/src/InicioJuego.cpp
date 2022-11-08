@@ -1,6 +1,8 @@
 #include <QGraphicsTextItem>
+#include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 #include "InicioJuego.hpp"
+#include "BotonJuego.hpp"
 
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
@@ -14,6 +16,25 @@ void InicioJuego::crearEscenaInicioJuego()
     Q_ASSERT(this->titulo == nullptr);
     this->titulo = new QGraphicsTextItem("Conecta4");
     this->titulo->setFont(fuenteInstrucciones);
-    this->titulo->setPos(-40, 25);
+    qreal tituloJuegoX = (600 - this->titulo->boundingRect().width())/2.0;
+    this->titulo->setPos(tituloJuegoX, 25);
     this->addItem(this->titulo);
+
+    Q_ASSERT(this->fila1 == nullptr);
+    this->fila1 = new BotonJuego();
+    this->fila1->setSharedRenderer(this->svgRenderer);
+    this->fila1->setElementId("botonJuego3");
+    this->fila1->setPos(113, 70);
+    this->addItem(this->fila1);
+    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+    Q_ASSERT(this->tablero == nullptr);
+    this->tablero = new QGraphicsSvgItem();
+    this->tablero->setSharedRenderer(this->svgRenderer);
+    this->tablero->setElementId("tablero");
+    this->tablero->setPos(110, 130);
+    this->addItem(this->tablero);
+    //this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
+
+
 }

@@ -23,7 +23,7 @@ protected:
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
 
-//para crear subrrutinas
+//para crear subrutinas
 protected slots:
     void empezarJuego();
     void mostrarIntegrantes();

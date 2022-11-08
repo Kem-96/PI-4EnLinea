@@ -2,8 +2,9 @@
 #define INICIOJUEGO_HPP
 
 #include "EscenaJuego.hpp"
-
+class QGraphicsSvgItem;
 class QSvgRenderer;
+class BotonJuego;
 
 class InicioJuego : public EscenaJuego
 {
@@ -15,7 +16,16 @@ public:
 
 protected:
     QGraphicsTextItem* titulo = nullptr;
+    BotonJuego* fila1 = nullptr;
+    QGraphicsSvgItem* tablero = nullptr;
     void crearEscenaInicioJuego();
+
+signals:
+    void botonFilaPresionado();
+
+//subrutinas
+protected slots:
+
 
 
 };
