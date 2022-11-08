@@ -40,7 +40,7 @@ void InicioJuego::crearEscenaInicioJuego()
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(50, 470);
+    this->botonAtras->setPos(110, 470);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 
