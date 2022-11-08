@@ -13,6 +13,8 @@ class Instrucciones : public EscenaJuego
 
 protected:
     QGraphicsTextItem* instrucciones = nullptr;
+    QGraphicsTextItem* reglas = nullptr;
+
     BotonJuego* botonAtras = nullptr;
 
 public:

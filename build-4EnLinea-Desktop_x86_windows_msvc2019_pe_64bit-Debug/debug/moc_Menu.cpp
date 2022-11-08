@@ -26,22 +26,28 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_Menu_t {
-    uint offsetsAndSizes[6];
+    uint offsetsAndSizes[10];
     char stringdata0[5];
     char stringdata1[22];
     char stringdata2[1];
+    char stringdata3[27];
+    char stringdata4[29];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_Menu_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_Menu_t qt_meta_stringdata_Menu = {
     {
         QT_MOC_LITERAL(0, 4),  // "Menu"
-        QT_MOC_LITERAL(5, 21),  // "botonDePlayPrecionado"
-        QT_MOC_LITERAL(27, 0)   // ""
+        QT_MOC_LITERAL(5, 21),  // "botonDePlayPresionado"
+        QT_MOC_LITERAL(27, 0),  // ""
+        QT_MOC_LITERAL(28, 26),  // "botonIntegrantesPresionado"
+        QT_MOC_LITERAL(55, 28)   // "botonInstruccionesPresionado"
     },
     "Menu",
-    "botonDePlayPrecionado",
-    ""
+    "botonDePlayPresionado",
+    "",
+    "botonIntegrantesPresionado",
+    "botonInstruccionesPresionado"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -52,24 +58,28 @@ Q_CONSTINIT static const uint qt_meta_data_Menu[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x06,    1 /* Public */,
+       1,    0,   32,    2, 0x06,    1 /* Public */,
+       3,    0,   33,    2, 0x06,    2 /* Public */,
+       4,    0,   34,    2, 0x06,    3 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
 };
 
 Q_CONSTINIT const QMetaObject Menu::staticMetaObject = { {
-    QMetaObject::SuperData::link<QGraphicsScene::staticMetaObject>(),
+    QMetaObject::SuperData::link<EscenaJuego::staticMetaObject>(),
     qt_meta_stringdata_Menu.offsetsAndSizes,
     qt_meta_data_Menu,
     qt_static_metacall,
@@ -77,7 +87,11 @@ Q_CONSTINIT const QMetaObject Menu::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_Menu_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Menu, std::true_type>,
-        // method 'botonDePlayPrecionado'
+        // method 'botonDePlayPresionado'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'botonIntegrantesPresionado'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'botonInstruccionesPresionado'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -89,15 +103,31 @@ void Menu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         auto *_t = static_cast<Menu *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->botonDePlayPrecionado(); break;
+        case 0: _t->botonDePlayPresionado(); break;
+        case 1: _t->botonIntegrantesPresionado(); break;
+        case 2: _t->botonInstruccionesPresionado(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (Menu::*)();
-            if (_t _q_method = &Menu::botonDePlayPrecionado; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Menu::botonDePlayPresionado; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (Menu::*)();
+            if (_t _q_method = &Menu::botonIntegrantesPresionado; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (Menu::*)();
+            if (_t _q_method = &Menu::botonInstruccionesPresionado; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
                 return;
             }
         }
@@ -115,30 +145,42 @@ void *Menu::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_Menu.stringdata0))
         return static_cast<void*>(this);
-    return QGraphicsScene::qt_metacast(_clname);
+    return EscenaJuego::qt_metacast(_clname);
 }
 
 int Menu::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QGraphicsScene::qt_metacall(_c, _id, _a);
+    _id = EscenaJuego::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
 }
 
 // SIGNAL 0
-void Menu::botonDePlayPrecionado()
+void Menu::botonDePlayPresionado()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void Menu::botonIntegrantesPresionado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void Menu::botonInstruccionesPresionado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

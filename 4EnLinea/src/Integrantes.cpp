@@ -12,12 +12,14 @@ Integrantes::Integrantes(QSvgRenderer* svgRenderer, QObject *parent)
 
 void Integrantes::crearEscenaIntegrantes()
 {
-    QFont fuenteIntegrantes("arial", 26, QFont::Bold);
+    QFont fuenteIntegrantes("calibri", 26);
     Q_ASSERT(this->integrantes == nullptr);
-    this->integrantes = new QGraphicsTextItem("Integrantes: \n  -Nathan Murillo \n  -Issac Vargas \n  -Rodrigo Mendoza \n  -Kembly Paniagua");
+    this->integrantes = new QGraphicsTextItem("Integrantes\n \n  -Nathan Murillo (B95506)\n \n  -Isaac Vargas (C08195)\n \n  -Rodrigo Mendoza (C04813)\n \n  -Kembly Paniagua (B95822)");
     this->integrantes->setFont(fuenteIntegrantes);
-    this->integrantes->setPos(120, 145);
+    this->integrantes->setPos(55, 55);
     this->addItem(this->integrantes);
+
+
 
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
