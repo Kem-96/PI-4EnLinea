@@ -18,10 +18,12 @@ protected:
     QGraphicsTextItem* titulo = nullptr;
     BotonJuego* fila1 = nullptr;
     QGraphicsSvgItem* tablero = nullptr;
+    BotonJuego* botonAtras = nullptr;
     void crearEscenaInicioJuego();
 
 signals:
     void botonFilaPresionado();
+    void botonAtrasPresionado();
 
 //subrutinas
 protected slots:

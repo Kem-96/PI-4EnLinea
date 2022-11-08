@@ -18,10 +18,10 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->connect(&this->menu, &Menu::botonInstruccionesPresionado, this, &VentanaJuego::mostrarInstrucciones);
     this->connect(&this->integrantes, &Integrantes::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
     this->connect(&this->instrucciones, &Instrucciones::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
-
+    this->connect(&this->inicioJuego, &InicioJuego::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
 
 #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-    this->resize(600, 500);
+    this->resize(650, 550);
 #endif
 
     //esto desactiva las barras
