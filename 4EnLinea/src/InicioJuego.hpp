@@ -18,6 +18,8 @@ protected:
     QGraphicsTextItem* titulo = nullptr;
     BotonJuego* fila1 = nullptr;
     QGraphicsSvgItem* tablero = nullptr;
+    QGraphicsSvgItem* ficha1 = nullptr;
+    QGraphicsSvgItem* ficha2 = nullptr;
     BotonJuego* botonAtras = nullptr;
     void crearEscenaInicioJuego();
 
