@@ -11,6 +11,7 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     , integrantes(this->svgRenderer)
     , instrucciones(this->svgRenderer)
 {
+
     this->setScene(&this->menu);
     this->backgroundBrush();
     this->connect(&this->menu, &Menu::botonDePlayPresionado, this, &VentanaJuego::empezarJuego);
@@ -19,6 +20,13 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->connect(&this->integrantes, &Integrantes::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
     this->connect(&this->instrucciones, &Instrucciones::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
     this->connect(&this->inicioJuego, &InicioJuego::botonAtrasPresionado, this, &VentanaJuego::volverMenu);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila1Presionado, this, &VentanaJuego::fila1);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila2Presionado, this, &VentanaJuego::fila2);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila3Presionado, this, &VentanaJuego::fila3);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila4Presionado, this, &VentanaJuego::fila4);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila5Presionado, this, &VentanaJuego::fila5);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila6Presionado, this, &VentanaJuego::fila6);
+    this->connect(&this->inicioJuego, &InicioJuego::botonFila7Presionado, this, &VentanaJuego::fila7);
 
 #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->resize(600, 550);
@@ -55,5 +63,55 @@ void VentanaJuego::mostrarInstrucciones()
 
 void VentanaJuego::volverMenu()
 {
+
     this->setScene(&this->menu);
+}
+
+int VentanaJuego::fila1()
+{
+    int numero = 1;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila2()
+{
+    int numero = 2;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila3()
+{
+    int numero = 3;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila4()
+{
+    int numero = 4;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila5()
+{
+    int numero = 5;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila6()
+{
+    int numero = 6;
+    std::cerr << numero <<std::endl;
+    return numero;
+}
+
+int VentanaJuego::fila7()
+{
+    int numero = 7;
+    std::cerr << numero <<std::endl;
+    return numero;
 }

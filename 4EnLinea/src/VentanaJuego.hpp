@@ -29,6 +29,13 @@ protected slots:
     void mostrarIntegrantes();
     void mostrarInstrucciones();
     void volverMenu();
+    int fila1();
+    int fila2();
+    int fila3();
+    int fila4();
+    int fila5();
+    int fila6();
+    int fila7();
 
 
 

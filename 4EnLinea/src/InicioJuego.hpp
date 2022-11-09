@@ -12,6 +12,7 @@ class InicioJuego : public EscenaJuego
     Q_DISABLE_COPY_MOVE(InicioJuego)
 
 public:
+    int valor = 0;
     explicit InicioJuego(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
 
 protected:
@@ -30,11 +31,18 @@ protected:
     void crearEscenaInicioJuego();
 
 signals:
-    void botonFilaPresionado();
+    void botonFila1Presionado();
+    void botonFila2Presionado();
+    void botonFila3Presionado();
+    void botonFila4Presionado();
+    void botonFila5Presionado();
+    void botonFila6Presionado();
+    void botonFila7Presionado();
     void botonAtrasPresionado();
 
 //subrutinas
 protected slots:
+
 
 
 
