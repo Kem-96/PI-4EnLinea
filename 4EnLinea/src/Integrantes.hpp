@@ -13,6 +13,7 @@ class Integrantes : public EscenaJuego
 
 protected:
     QGraphicsTextItem* integrantes = nullptr;
+    QGraphicsTextItem* titulo = nullptr;
     BotonJuego* botonAtras = nullptr;
 
 public:

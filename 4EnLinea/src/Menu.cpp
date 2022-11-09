@@ -13,7 +13,7 @@ Menu::Menu(QSvgRenderer* svgRenderer, QObject *parent)
 
 void Menu::crearEscena()
 {
-    QFont tituloFuente("Garamond", 40, QFont::Bold);
+    QFont tituloFuente("Impact", 40);
 
     Q_ASSERT(this->tituloJuego == nullptr);
     this->tituloJuego = new QGraphicsTextItem("Conecta 4");
