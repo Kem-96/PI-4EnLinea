@@ -25,8 +25,6 @@ signals:
 
 protected:
     void crearEscenaInstrucciones();
-
-
 };
 
 #endif // INSTRUCCIONES_HPP

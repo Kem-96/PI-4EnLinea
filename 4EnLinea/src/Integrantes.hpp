@@ -24,7 +24,6 @@ signals:
 
 protected:
     void crearEscenaIntegrantes();
-
 };
 
 #endif // INTEGRANTES_HPP

@@ -16,8 +16,6 @@ protected:
 
 public:
     explicit EscenaJuego(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
-
-
 };
 
 #endif // ESCENAJUEGO_HPP

@@ -30,9 +30,6 @@ signals:
 protected:
     void crearEscena();
 
-
-
-
 };
 
 #endif // MENU_HPP

@@ -9,7 +9,6 @@ Conecta4::Conecta4(int& argc, char** argv)
 
 Conecta4::~Conecta4()
 {
-
 }
 
 int Conecta4::run()

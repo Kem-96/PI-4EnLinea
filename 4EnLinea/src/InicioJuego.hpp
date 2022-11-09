@@ -42,10 +42,6 @@ signals:
 
 //subrutinas
 protected slots:
-
-
-
-
 };
 
 #endif // INICIOJUEGO_HPP

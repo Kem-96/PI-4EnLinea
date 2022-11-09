@@ -31,7 +31,6 @@ void Menu::crearEscena()
     this->addItem(this->botonInstrucciones);
     this->connect(this->botonInstrucciones, &BotonJuego::clicked, this, &Menu::botonInstruccionesPresionado);
 
-
     Q_ASSERT(this->botonIntegrantes == nullptr);
     this->botonIntegrantes = new BotonJuego();
     this->botonIntegrantes->setSharedRenderer(this->svgRenderer);
@@ -40,7 +39,6 @@ void Menu::crearEscena()
     this->botonIntegrantes->setPos(botonInt, 250);
     this->addItem(this->botonIntegrantes);
     this->connect(this->botonIntegrantes, &BotonJuego::clicked, this, &Menu::botonIntegrantesPresionado);
-
 
     Q_ASSERT(this->botonInicio == nullptr);
     this->botonInicio = new BotonJuego();

@@ -11,7 +11,6 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     , integrantes(this->svgRenderer)
     , instrucciones(this->svgRenderer)
 {
-
     this->setScene(&this->menu);
     this->backgroundBrush();
     this->connect(&this->menu, &Menu::botonDePlayPresionado, this, &VentanaJuego::empezarJuego);
