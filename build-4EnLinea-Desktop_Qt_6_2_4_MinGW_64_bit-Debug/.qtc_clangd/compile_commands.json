@@ -34,7 +34,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -43,8 +43,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -63,10 +63,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Instrucciones.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Instrucciones.cpp"
 },
 {
     "arguments": [
@@ -103,7 +103,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -112,8 +112,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -132,10 +132,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Integrantes.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Integrantes.cpp"
 },
 {
     "arguments": [
@@ -172,7 +172,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -181,8 +181,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -201,10 +201,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/BotonJuego.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/BotonJuego.cpp"
 },
 {
     "arguments": [
@@ -241,7 +241,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -250,8 +250,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -270,10 +270,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/EscenaJuego.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/EscenaJuego.cpp"
 },
 {
     "arguments": [
@@ -310,7 +310,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -319,8 +319,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -339,10 +339,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/InicioJuego.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/InicioJuego.cpp"
 },
 {
     "arguments": [
@@ -379,7 +379,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -388,8 +388,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -408,10 +408,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Menu.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Menu.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Menu.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Menu.cpp"
 },
 {
     "arguments": [
@@ -448,7 +448,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -457,8 +457,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -477,10 +477,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/VentanaJuego.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/VentanaJuego.cpp"
 },
 {
     "arguments": [
@@ -517,7 +517,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -526,8 +526,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -546,10 +546,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Conecta4.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Conecta4.cpp"
 },
 {
     "arguments": [
@@ -586,7 +586,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -595,8 +595,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -615,10 +615,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\main.cpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\main.cpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/main.cpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/main.cpp"
 },
 {
     "arguments": [
@@ -655,7 +655,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -664,8 +664,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -684,10 +684,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Instrucciones.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Instrucciones.hpp"
 },
 {
     "arguments": [
@@ -724,7 +724,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -733,8 +733,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -753,10 +753,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Integrantes.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Integrantes.hpp"
 },
 {
     "arguments": [
@@ -793,7 +793,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -802,8 +802,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -822,10 +822,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/BotonJuego.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/BotonJuego.hpp"
 },
 {
     "arguments": [
@@ -862,7 +862,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -871,8 +871,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -891,10 +891,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/EscenaJuego.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/EscenaJuego.hpp"
 },
 {
     "arguments": [
@@ -931,7 +931,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -940,8 +940,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -960,10 +960,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/InicioJuego.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/InicioJuego.hpp"
 },
 {
     "arguments": [
@@ -1000,7 +1000,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -1009,8 +1009,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1029,10 +1029,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Menu.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Menu.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Menu.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Menu.hpp"
 },
 {
     "arguments": [
@@ -1069,7 +1069,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -1078,8 +1078,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1098,10 +1098,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/VentanaJuego.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/VentanaJuego.hpp"
 },
 {
     "arguments": [
@@ -1138,7 +1138,7 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtSvgWidgets",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtWidgets",
@@ -1147,8 +1147,8 @@
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.2.4\\mingw_64\\include\\QtCore",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
-        "-IC:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Invita2\\Documents\\PI-4EnLinea\\build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.2.4\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1167,9 +1167,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\Users\\User\\Documents\\UCR\\Git\\PI-4EnLinea\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.hpp"
+        "C:\\Users\\Invita2\\Documents\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.hpp"
     ],
-    "directory": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/Users/User/Documents/UCR/Git/PI-4EnLinea/PI-4EnLinea/4EnLinea/src/Conecta4.hpp"
+    "directory": "C:/Users/Invita2/Documents/PI-4EnLinea/build-4EnLinea-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Invita2/Documents/PI-4EnLinea/4EnLinea/src/Conecta4.hpp"
 }
 ]
