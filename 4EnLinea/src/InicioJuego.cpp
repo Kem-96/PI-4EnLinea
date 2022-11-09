@@ -4,7 +4,6 @@
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
 
-
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {
@@ -81,6 +80,7 @@ void InicioJuego::crearEscenaInicioJuego()
     int x = 112;
     int y = 150;
     int contador = 0;
+
     QGraphicsSvgItem* fichas[42];
     Q_ASSERT(this->tablero == nullptr);
 
