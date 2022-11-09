@@ -77,14 +77,29 @@ void InicioJuego::crearEscenaInicioJuego()
     this->addItem(this->fila7);
     this->connect(this->fila7, &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
 
-    //Q_ASSERT(this->tablero == nullptr);
-    //this->tablero = new QGraphicsSvgItem();
-    //this->tablero->setSharedRenderer(this->svgRenderer);
-    //this->tablero->setElementId("tablero");
-    //this->tablero->setPos(110, 130);
-    //this->addItem(this->tablero);
-    //this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFilaPresionado);
 
+
+    //---------------------llenar tablero vacio--------------------------
+    int x = 115;
+    int y = 130;
+    int contador = 0;
+    QGraphicsSvgItem* fichas[42];
+    Q_ASSERT(this->tablero == nullptr);
+
+    for(int f = 0; f < 6;++f){
+        for(int c = 0; c < 7;++c){
+            fichas[contador] = new QGraphicsSvgItem();
+            fichas[contador]->setSharedRenderer(this->svgRenderer);
+            fichas[contador]->setElementId("celda");
+            fichas[contador]->setPos(x,y);
+            this->addItem(fichas[contador]);
+            x = x + 53;
+            contador++;
+        }
+        x = 115;
+        y = y + 53;
+    }
+    //--------------------------------------------------------------------
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
@@ -94,3 +109,6 @@ void InicioJuego::crearEscenaInicioJuego()
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 
 }
+
+
+

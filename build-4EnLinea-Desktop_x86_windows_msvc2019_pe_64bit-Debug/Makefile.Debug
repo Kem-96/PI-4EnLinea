@@ -331,7 +331,7 @@ debug\moc_Instrucciones.cpp: ..\4EnLinea\src\Instrucciones.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Instrucciones.hpp -o debug\moc_Instrucciones.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Instrucciones.hpp -o debug\moc_Instrucciones.cpp
 
 debug\moc_Integrantes.cpp: ..\4EnLinea\src\Integrantes.hpp \
 		..\4EnLinea\src\EscenaJuego.hpp \
@@ -437,7 +437,7 @@ debug\moc_Integrantes.cpp: ..\4EnLinea\src\Integrantes.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Integrantes.hpp -o debug\moc_Integrantes.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Integrantes.hpp -o debug\moc_Integrantes.cpp
 
 debug\moc_BotonJuego.cpp: ..\4EnLinea\src\BotonJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\QGraphicsSvgItem \
@@ -553,7 +553,7 @@ debug\moc_BotonJuego.cpp: ..\4EnLinea\src\BotonJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpixelformat.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\BotonJuego.hpp -o debug\moc_BotonJuego.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\BotonJuego.hpp -o debug\moc_BotonJuego.cpp
 
 debug\moc_EscenaJuego.cpp: ..\4EnLinea\src\EscenaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsScene \
@@ -658,7 +658,7 @@ debug\moc_EscenaJuego.cpp: ..\4EnLinea\src\EscenaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\EscenaJuego.hpp -o debug\moc_EscenaJuego.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\EscenaJuego.hpp -o debug\moc_EscenaJuego.cpp
 
 debug\moc_InicioJuego.cpp: ..\4EnLinea\src\InicioJuego.hpp \
 		..\4EnLinea\src\EscenaJuego.hpp \
@@ -764,7 +764,7 @@ debug\moc_InicioJuego.cpp: ..\4EnLinea\src\InicioJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\InicioJuego.hpp -o debug\moc_InicioJuego.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\InicioJuego.hpp -o debug\moc_InicioJuego.cpp
 
 debug\moc_Menu.cpp: ..\4EnLinea\src\Menu.hpp \
 		..\4EnLinea\src\EscenaJuego.hpp \
@@ -870,7 +870,7 @@ debug\moc_Menu.cpp: ..\4EnLinea\src\Menu.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Menu.hpp -o debug\moc_Menu.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Menu.hpp -o debug\moc_Menu.cpp
 
 debug\moc_VentanaJuego.cpp: ..\4EnLinea\src\VentanaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsView \
@@ -1024,7 +1024,7 @@ debug\moc_VentanaJuego.cpp: ..\4EnLinea\src\VentanaJuego.hpp \
 		..\4EnLinea\src\Menu.hpp \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\VentanaJuego.hpp -o debug\moc_VentanaJuego.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\VentanaJuego.hpp -o debug\moc_VentanaJuego.cpp
 
 debug\moc_Conecta4.cpp: ..\4EnLinea\src\Conecta4.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QApplication \
@@ -1161,7 +1161,7 @@ debug\moc_Conecta4.cpp: ..\4EnLinea\src\Conecta4.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qguiapplication_platform.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.4.0\msvc2019_64\bin\moc.exe
-	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Conecta4.hpp -o debug\moc_Conecta4.cpp
+	C:\Qt\6.4.0\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/msvc2019_64/mkspecs/win32-msvc -I"C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea" -IC:/Qt/6.4.0/msvc2019_64/include -IC:/Qt/6.4.0/msvc2019_64/include/QtSvgWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtWidgets -IC:/Qt/6.4.0/msvc2019_64/include/QtSvg -IC:/Qt/6.4.0/msvc2019_64/include/QtMultimedia -IC:/Qt/6.4.0/msvc2019_64/include/QtGui -IC:/Qt/6.4.0/msvc2019_64/include/QtNetwork -IC:/Qt/6.4.0/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\4EnLinea\src\Conecta4.hpp -o debug\moc_Conecta4.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1295,6 +1295,11 @@ debug\Instrucciones.obj: ..\4EnLinea\src\Instrucciones.cpp C:\Qt\6.4.0\msvc2019_
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qiodevice.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\qtsvgglobal.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\qtsvgexports.h \
+		..\4EnLinea\src\BotonJuego.hpp \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\QGraphicsSvgItem \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qgraphicssvgitem.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsglobal.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsexports.h \
 		..\4EnLinea\src\Instrucciones.hpp \
 		..\4EnLinea\src\EscenaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsScene \
@@ -1448,6 +1453,11 @@ debug\Integrantes.obj: ..\4EnLinea\src\Integrantes.cpp C:\Qt\6.4.0\msvc2019_64\i
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\QSizeF \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\QTransform \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qnativeinterface.h \
+		..\4EnLinea\src\BotonJuego.hpp \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\QGraphicsSvgItem \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qgraphicssvgitem.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsglobal.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsexports.h \
 		..\4EnLinea\src\Integrantes.hpp \
 		..\4EnLinea\src\EscenaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsScene \
@@ -1693,11 +1703,10 @@ debug\EscenaJuego.obj: ..\4EnLinea\src\EscenaJuego.cpp ..\4EnLinea\src\EscenaJue
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qfont.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h
 
-debug\InicioJuego.obj: ..\4EnLinea\src\InicioJuego.cpp C:\Qt\6.4.0\msvc2019_64\include\QtSvg\QSvgRenderer \
-		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\qsvgrenderer.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobject.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobjectdefs.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qnamespace.h \
+debug\InicioJuego.obj: ..\4EnLinea\src\InicioJuego.cpp C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsTextItem \
+		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qgraphicsitem.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgetsglobal.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qglobal.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qconfig-bootstrapped.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qconfig.h \
@@ -1722,6 +1731,13 @@ debug\InicioJuego.obj: ..\4EnLinea\src\InicioJuego.cpp C:\Qt\6.4.0\msvc2019_64\i
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qnumeric.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qversiontagging.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qforeach.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtgui-config.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtguiexports.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgets-config.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgetsexports.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobject.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobjectdefs.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qnamespace.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qtmetamacros.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobjectdefs_impl.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qstring.h \
@@ -1764,10 +1780,43 @@ debug\InicioJuego.obj: ..\4EnLinea\src\InicioJuego.cpp C:\Qt\6.4.0\msvc2019_64\i
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qmath.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qobject_impl.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qbindingstorage.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsize.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qmargins.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qvariant.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qdebug.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qtextstream.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qstringconverter_base.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qcontiguouscache.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsharedpointer.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qshareddata.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsharedpointer_impl.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qmap.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qshareddata_impl.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qset.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qhash.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qvarlengtharray.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qrect.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qmargins.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsize.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qpoint.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpainterpath.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtransform.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpolygon.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qregion.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qwindowdefs.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qwindowdefs_win.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qline.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpixmap.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpaintdevice.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qcolor.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qrgb.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qrgba64.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qimage.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpixelformat.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\QGraphicsSvgItem \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qgraphicssvgitem.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsglobal.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvgWidgets\qtsvgwidgetsexports.h \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\QSvgRenderer \
+		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\qsvgrenderer.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qxmlstream.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qiodevice.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtSvg\qtsvgglobal.h \
@@ -1776,31 +1825,10 @@ debug\InicioJuego.obj: ..\4EnLinea\src\InicioJuego.cpp C:\Qt\6.4.0\msvc2019_64\i
 		..\4EnLinea\src\EscenaJuego.hpp \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\QGraphicsScene \
 		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qgraphicsscene.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgetsglobal.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtguiglobal.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtgui-config.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtguiexports.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgets-config.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtWidgets\qtwidgetsexports.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qbrush.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qcolor.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qrgb.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qrgba64.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qimage.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpaintdevice.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qwindowdefs.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qwindowdefs_win.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpixelformat.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qtransform.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpolygon.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qregion.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qline.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpixmap.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsharedpointer.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qshareddata.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtCore\qsharedpointer_impl.h \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qfont.h \
-		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h
+		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qpen.h \
+		..\4EnLinea\src\BotonJuego.hpp
 
 debug\Menu.obj: ..\4EnLinea\src\Menu.cpp C:\Qt\6.4.0\msvc2019_64\include\QtGui\QFont \
 		C:\Qt\6.4.0\msvc2019_64\include\QtGui\qfont.h \
