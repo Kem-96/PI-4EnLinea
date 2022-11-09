@@ -60,7 +60,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -78,9 +78,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -105,10 +105,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Instrucciones.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Instrucciones.cpp"
 },
 {
     "arguments": [
@@ -171,7 +171,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -189,9 +189,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -216,10 +216,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Integrantes.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Integrantes.cpp"
 },
 {
     "arguments": [
@@ -282,7 +282,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -300,9 +300,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -327,10 +327,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/BotonJuego.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/BotonJuego.cpp"
 },
 {
     "arguments": [
@@ -393,7 +393,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -411,9 +411,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -438,10 +438,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/EscenaJuego.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/EscenaJuego.cpp"
 },
 {
     "arguments": [
@@ -504,7 +504,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -522,9 +522,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -549,10 +549,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/InicioJuego.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/InicioJuego.cpp"
 },
 {
     "arguments": [
@@ -615,7 +615,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -633,9 +633,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -660,10 +660,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Menu.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Menu.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Menu.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Menu.cpp"
 },
 {
     "arguments": [
@@ -726,7 +726,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -744,9 +744,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -771,10 +771,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/VentanaJuego.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/VentanaJuego.cpp"
 },
 {
     "arguments": [
@@ -837,7 +837,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -855,9 +855,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -882,10 +882,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Conecta4.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Conecta4.cpp"
 },
 {
     "arguments": [
@@ -948,7 +948,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -966,9 +966,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -993,10 +993,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\main.cpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\main.cpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/main.cpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/main.cpp"
 },
 {
     "arguments": [
@@ -1059,7 +1059,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1077,9 +1077,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1104,10 +1104,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Instrucciones.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Instrucciones.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Instrucciones.hpp"
 },
 {
     "arguments": [
@@ -1170,7 +1170,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1188,9 +1188,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1215,10 +1215,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Integrantes.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Integrantes.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Integrantes.hpp"
 },
 {
     "arguments": [
@@ -1281,7 +1281,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1299,9 +1299,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1326,10 +1326,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\BotonJuego.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/BotonJuego.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/BotonJuego.hpp"
 },
 {
     "arguments": [
@@ -1392,7 +1392,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1410,9 +1410,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1437,10 +1437,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\EscenaJuego.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/EscenaJuego.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/EscenaJuego.hpp"
 },
 {
     "arguments": [
@@ -1503,7 +1503,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1521,9 +1521,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1548,10 +1548,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\InicioJuego.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/InicioJuego.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/InicioJuego.hpp"
 },
 {
     "arguments": [
@@ -1614,7 +1614,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1632,9 +1632,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1659,10 +1659,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Menu.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Menu.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Menu.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Menu.hpp"
 },
 {
     "arguments": [
@@ -1725,7 +1725,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1743,9 +1743,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1770,10 +1770,10 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\VentanaJuego.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/VentanaJuego.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/VentanaJuego.hpp"
 },
 {
     "arguments": [
@@ -1836,7 +1836,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include",
         "-I",
@@ -1854,9 +1854,9 @@
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug\\debug",
         "-I",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug",
         "-I",
         "C:\\Qt\\6.4.0\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1881,9 +1881,9 @@
         "-fmacro-backtrace-limit=0",
         "-ferror-limit=1000",
         "/TP",
-        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\1\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.hpp"
+        "C:\\Users\\porgois\\Documents\\Universidad\\2022\\II\\Proyecto Integrador Ensamblador\\Proyecto PI\\PI-4EnLinea\\4EnLinea\\src\\Conecta4.hpp"
     ],
-    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
-    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/1/PI-4EnLinea/4EnLinea/src/Conecta4.hpp"
+    "directory": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/build-4EnLinea-Desktop_x86_windows_msvc2019_pe_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/porgois/Documents/Universidad/2022/II/Proyecto Integrador Ensamblador/Proyecto PI/PI-4EnLinea/4EnLinea/src/Conecta4.hpp"
 }
 ]
