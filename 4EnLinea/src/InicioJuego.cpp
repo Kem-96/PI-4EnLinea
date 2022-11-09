@@ -99,6 +99,10 @@ void InicioJuego::crearEscenaInicioJuego()
     }
     //--------------------------------------------------------------------
 
+    //----prueba_colocar---------------
+    fichas[35]->setElementId("ficha1");
+    fichas[41]->setElementId("ficha2");
+
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
