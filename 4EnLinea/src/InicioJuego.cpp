@@ -1,6 +1,9 @@
 #include <QGraphicsTextItem>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
+#include <iostream>
+#include <time.h>
+#include <stdlib.h>
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
 
@@ -12,6 +15,9 @@ InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
 
 void InicioJuego::crearEscenaInicioJuego()
 {
+    const int size = 42;
+    QGraphicsSvgItem* fichas[size];
+
     QFont fuenteConecta4("Impact", 24);
     Q_ASSERT(this->titulo == nullptr);
     this->titulo = new QGraphicsTextItem("Conecta 4");
@@ -77,12 +83,56 @@ void InicioJuego::crearEscenaInicioJuego()
     this->connect(this->fila7, &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
 
     //---------------------llenar tablero vacio--------------------------
+
+    crearTablero(fichas);
+    //--------------------------------------------------------------------
+
+    //arreglo random:
+    int arr[size];
+    llenarRandom(arr, size);
+
+    //reflejar en pantalla:
+    traducir(fichas, arr, size);
+
+    Q_ASSERT(this->botonAtras == nullptr);
+    this->botonAtras = new BotonJuego();
+    this->botonAtras->setSharedRenderer(this->svgRenderer);
+    this->botonAtras->setElementId("botonAtras");
+    this->botonAtras->setPos(30, 480);
+    this->addItem(this->botonAtras);
+    this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
+}
+
+void InicioJuego::llenarRandom(int arr[], int size){
+        int random;
+        srand(time(NULL));
+        for(int i = 0; i < size; i++){
+               random = rand()%3;
+               arr[i] = random;
+        }
+
+        for(int i = 0; i < size; i++){
+
+               std::cout << arr[i] << ",";
+        }
+        std::cout << "\n";
+}
+
+void InicioJuego::traducir(QGraphicsSvgItem* fichas[], int arr[], int size){
+        for(int i = 0; i < size; i++){
+            if(arr[i] == 1){
+                fichas[i]->setElementId("ficha1");
+            }
+            else if(arr[i] == 2){
+                fichas[i]->setElementId("ficha2");
+            }
+        }
+}
+
+void  InicioJuego::crearTablero(QGraphicsSvgItem* fichas[]){
     int x = 112;
     int y = 150;
     int contador = 0;
-
-    QGraphicsSvgItem* fichas[42];
-    Q_ASSERT(this->tablero == nullptr);
 
     for(int f = 0; f < 6;++f){
         for(int c = 0; c < 7;++c){
@@ -97,19 +147,6 @@ void InicioJuego::crearEscenaInicioJuego()
         x = 112;
         y = y + 53;
     }
-    //--------------------------------------------------------------------
-
-    //----prueba_colocar---------------
-    fichas[35]->setElementId("ficha1");
-    fichas[41]->setElementId("ficha2");
-
-    Q_ASSERT(this->botonAtras == nullptr);
-    this->botonAtras = new BotonJuego();
-    this->botonAtras->setSharedRenderer(this->svgRenderer);
-    this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(30, 480);
-    this->addItem(this->botonAtras);
-    this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 }
 
 
