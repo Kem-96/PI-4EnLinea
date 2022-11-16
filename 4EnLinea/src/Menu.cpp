@@ -25,7 +25,7 @@ void Menu::crearEscena()
     Q_ASSERT(this->botonInstrucciones == nullptr);
     this->botonInstrucciones = new BotonJuego();
     this->botonInstrucciones->setSharedRenderer(this->svgRenderer);
-    this->botonInstrucciones->setElementId("Informacion");
+    this->botonInstrucciones->setElementId("informacion2");
     qreal botonInst = ((600 - this->botonInstrucciones->boundingRect().width())/6.0)*5;
     this->botonInstrucciones->setPos(botonInst, 250);
     this->addItem(this->botonInstrucciones);
@@ -43,7 +43,7 @@ void Menu::crearEscena()
     Q_ASSERT(this->botonInicio == nullptr);
     this->botonInicio = new BotonJuego();
     this->botonInicio->setSharedRenderer(this->svgRenderer);
-    this->botonInicio->setElementId("playBoton");
+    this->botonInicio->setElementId("botonplay3");
     qreal botonCentrado = (600 - this->botonInicio->boundingRect().width())/2.0;
     this->botonInicio->setPos(botonCentrado, 390);
     this->addItem(this->botonInicio);
