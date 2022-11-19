@@ -2,7 +2,11 @@
 QT += core gui widgets svg multimedia svgwidgets
 
 TEMPLATE = app
+<<<<<<< Updated upstream
 TARGET = Konnect4
+=======
+TARGET = connect4
+>>>>>>> Stashed changes
 CONFIG += c++17
 
 QMAKE_EXTRA_COMPILERS += nasm
