@@ -2,12 +2,23 @@
 QT += core gui widgets svg multimedia svgwidgets
 
 TEMPLATE = app
-TARGET = Conecta4
+TARGET = connect4.asm
 CONFIG += c++17
+
+QMAKE_EXTRA_COMPILERS += nasm
+NASMEXTRAFLAGS = -f win64
+OTHER_FILES += $$NASM_SOURCES
+nasm.output = ${QMAKE_FILE_BASE}.o
+nasm.commands = nasm -f win64 connect4.asm -o connect4.o
+nasm.input = NASM_SOURCES
+
+
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
+
+NASM_SOURCES = src/connect4.asm
 
 SOURCES += \
     src/Instrucciones.cpp \
@@ -19,8 +30,7 @@ SOURCES += \
     src/VentanaJuego.cpp \
     src/Conecta4.cpp \
     src/main.cpp
-    src/Konnect4.s
-    src/macros.s
+    src/connect4.asm
 
 HEADERS += \
     src/Instrucciones.hpp \
@@ -43,5 +53,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    src/Konnect4.s \
-    src/macros.s
+    src/connect4.asm \
+

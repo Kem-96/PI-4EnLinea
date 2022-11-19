@@ -2,6 +2,33 @@
 
 #include "VentanaJuego.hpp"
 
+#pragma once
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <stdio.h>
+using namespace std;
+
+extern "C" void inicio();
+
+char tablero[] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n','\n'};
+int jugador = 50;
+int columna = 6;
+string testo = "Columna Llena\n";
+
+extern "C" void imp(){
+    cout << tablero;
+}
+
+extern "C" void ejemplo(){
+    cout << testo;
+}
+
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -68,9 +95,11 @@ void VentanaJuego::volverMenu()
 
 int VentanaJuego::fila1()
 {
-    int numero = 1;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 0;
+    inicio();
+
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila2()
