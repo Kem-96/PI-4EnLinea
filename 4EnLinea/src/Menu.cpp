@@ -13,14 +13,23 @@ Menu::Menu(QSvgRenderer* svgRenderer, QObject *parent)
 
 void Menu::crearEscena()
 {
-    QFont tituloFuente("Impact", 40);
+    //QFont tituloFuente("Impact", 40);
+
+    //Q_ASSERT(this->tituloJuego == nullptr);
+    //this->tituloJuego = new QGraphicsTextItem("Conecta 4");
+    //this->tituloJuego->setFont(tituloFuente);
+    //qreal tituloJuegoX = (600 - this->tituloJuego->boundingRect().width())/2.0;
+    //this->tituloJuego->setPos(tituloJuegoX-100, 80);
+    //this->addItem(this->tituloJuego);
 
     Q_ASSERT(this->tituloJuego == nullptr);
-    this->tituloJuego = new QGraphicsTextItem("Conecta 4");
-    this->tituloJuego->setFont(tituloFuente);
+    this->tituloJuego = new QGraphicsSvgItem();
+    this->tituloJuego->setSharedRenderer(this->svgRenderer);
+    this->tituloJuego->setElementId("titulo");
     qreal tituloJuegoX = (600 - this->tituloJuego->boundingRect().width())/2.0;
-    this->tituloJuego->setPos(tituloJuegoX, 80);
+    this->tituloJuego->setPos(tituloJuegoX-100, -100);
     this->addItem(this->tituloJuego);
+
 
     Q_ASSERT(this->botonInstrucciones == nullptr);
     this->botonInstrucciones = new BotonJuego();

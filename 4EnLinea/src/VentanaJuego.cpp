@@ -114,3 +114,5 @@ int VentanaJuego::fila7()
     std::cerr << numero <<std::endl;
     return numero;
 }
+
+
