@@ -2,14 +2,14 @@
 QT += core gui widgets svg multimedia svgwidgets
 
 TEMPLATE = app
-TARGET = connect4.asm
+TARGET = Konnect4
 CONFIG += c++17
 
 QMAKE_EXTRA_COMPILERS += nasm
 NASMEXTRAFLAGS = -f win64
 OTHER_FILES += $$NASM_SOURCES
 nasm.output = ${QMAKE_FILE_BASE}.o
-nasm.commands = nasm -f win64 connect4.asm -o connect4.o
+nasm.commands = nasm $$NASMEXTRAFLAGS -o ${QMAKE_FILE_BASE}.o ${QMAKE_FILE_NAME}
 nasm.input = NASM_SOURCES
 
 
@@ -30,7 +30,6 @@ SOURCES += \
     src/VentanaJuego.cpp \
     src/Conecta4.cpp \
     src/main.cpp
-    src/connect4.asm
 
 HEADERS += \
     src/Instrucciones.hpp \
@@ -53,5 +52,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    src/connect4.asm \
+    src/connect4.asm
 
