@@ -2,12 +2,13 @@
 
 #include "VentanaJuego.hpp"
 
-#pragma once
+
 #include <iostream>
 #include <string>
 #include <cstring>
 #include <stdio.h>
 using namespace std;
+
 
 extern "C" void inicio();
 
@@ -17,6 +18,7 @@ char tablero[] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', 
                   '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
                   '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
                   '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n','\n'};
+
 int jugador = 50;
 int columna = 6;
 string testo = "Columna Llena\n";
@@ -28,7 +30,6 @@ extern "C" void imp(){
 extern "C" void ejemplo(){
     cout << testo;
 }
-
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -104,44 +105,50 @@ int VentanaJuego::fila1()
 
 int VentanaJuego::fila2()
 {
-    int numero = 2;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 1;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila3()
 {
-    int numero = 3;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 2;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila4()
 {
-    int numero = 4;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 3;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila5()
 {
-    int numero = 5;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 4;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila6()
 {
-    int numero = 6;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 5;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila7()
 {
-    int numero = 7;
-    std::cerr << numero <<std::endl;
-    return numero;
+    columna = 6;
+    inicio();
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 

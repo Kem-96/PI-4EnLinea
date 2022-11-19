@@ -7,6 +7,9 @@
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
 
+
+
+
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {
@@ -89,7 +92,7 @@ void InicioJuego::crearEscenaInicioJuego()
 
     //arreglo random:
     int arr[size];
-    llenarRandom(arr, size);
+    //llenarRandom(arr, size);
 
     //reflejar en pantalla:
     traducir(fichas, arr, size);
@@ -103,7 +106,7 @@ void InicioJuego::crearEscenaInicioJuego()
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 }
 
-void InicioJuego::llenarRandom(int arr[], int size){
+/*void InicioJuego::llenarRandom(int arr[], int size){
         int random;
         srand(time(NULL));
         for(int i = 0; i < size; i++){
@@ -116,11 +119,11 @@ void InicioJuego::llenarRandom(int arr[], int size){
                std::cout << arr[i] << ",";
         }
         std::cout << "\n";
-}
+}*/
 
 void InicioJuego::traducir(QGraphicsSvgItem* fichas[], int arr[], int size){
         for(int i = 0; i < size; i++){
-            if(arr[i] == 1){
+            if(arr[i] == (char) 1){
                 fichas[i]->setElementId("ficha1");
             }
             else if(arr[i] == 2){

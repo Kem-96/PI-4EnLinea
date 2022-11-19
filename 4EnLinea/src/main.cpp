@@ -1,3 +1,4 @@
+#pragma once
 #include "Conecta4.hpp"
 
 

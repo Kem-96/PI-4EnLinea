@@ -7,6 +7,8 @@
 #include "Instrucciones.hpp"
 #include "Menu.hpp"
 
+
+
 class QSvgRenderer;
 
 class VentanaJuego : public QGraphicsView
@@ -20,8 +22,11 @@ protected:
     Integrantes integrantes;
     Instrucciones instrucciones;
 
+
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
+
+
 
 //para crear subrutinas
 protected slots:
