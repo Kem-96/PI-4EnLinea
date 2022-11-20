@@ -1676,8 +1676,7 @@ release/InicioJuego.o: ../4EnLinea/src/InicioJuego.cpp C:/Qt/6.2.4/mingw_64/incl
 		C:/Qt/6.2.4/mingw_64/include/QtGui/qbrush.h \
 		C:/Qt/6.2.4/mingw_64/include/QtGui/qfont.h \
 		C:/Qt/6.2.4/mingw_64/include/QtGui/qpen.h \
-		../4EnLinea/src/BotonJuego.hpp \
-		../4EnLinea/src/Tablero.hpp
+		../4EnLinea/src/BotonJuego.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release/InicioJuego.o ../4EnLinea/src/InicioJuego.cpp
 
 release/Menu.o: ../4EnLinea/src/Menu.cpp C:/Qt/6.2.4/mingw_64/include/QtGui/QFont \
@@ -1948,7 +1947,10 @@ release/VentanaJuego.o: ../4EnLinea/src/VentanaJuego.cpp C:/Qt/6.2.4/mingw_64/in
 		../4EnLinea/src/Integrantes.hpp \
 		../4EnLinea/src/Instrucciones.hpp \
 		../4EnLinea/src/Menu.hpp \
-		../4EnLinea/src/Tablero.hpp
+		C:/Qt/6.2.4/mingw_64/include/QtSvgWidgets/qgraphicssvgitem.h \
+		C:/Qt/6.2.4/mingw_64/include/QtSvgWidgets/qtsvgwidgetsglobal.h \
+		C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsitem.h \
+		C:/Qt/6.2.4/mingw_64/include/QtGui/qpainterpath.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release/VentanaJuego.o ../4EnLinea/src/VentanaJuego.cpp
 
 release/Conecta4.o: ../4EnLinea/src/Conecta4.cpp ../4EnLinea/src/Conecta4.hpp \

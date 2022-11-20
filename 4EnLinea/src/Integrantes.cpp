@@ -16,7 +16,7 @@ void Integrantes::crearEscenaIntegrantes()
     Q_ASSERT(this->titulo == nullptr);
     this->titulo = new QGraphicsTextItem("Integrantes");
     this->titulo->setFont(fuenteTitulo);
-    qreal tituloTituloX = (600 - this->titulo->boundingRect().width())/2.0;
+    qreal tituloTituloX = (700 - this->titulo->boundingRect().width())/2.0;
     this->titulo->setPos(tituloTituloX, 20);
     this->addItem(this->titulo);
 
@@ -24,7 +24,7 @@ void Integrantes::crearEscenaIntegrantes()
     Q_ASSERT(this->integrantes == nullptr);
     this->integrantes = new QGraphicsTextItem("- Nathan Murillo (B95506)\n \n- Isaac Vargas (C08195)\n \n- Rodrigo Mendoza (C04813)\n \n- Kembly Paniagua (B95822)");
     this->integrantes->setFont(fuenteIntegrantes);
-    qreal tituloIntegrantesX = (600 - this->integrantes->boundingRect().width())/2.0;
+    qreal tituloIntegrantesX = (700 - this->integrantes->boundingRect().width())/2.0;
     this->integrantes->setPos(tituloIntegrantesX, 136);
     this->addItem(this->integrantes);
 
