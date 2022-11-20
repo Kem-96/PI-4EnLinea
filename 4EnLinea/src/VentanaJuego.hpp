@@ -26,8 +26,6 @@ protected:
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
 
-
-
 //para crear subrutinas
 protected slots:
     void empezarJuego();
@@ -41,9 +39,6 @@ protected slots:
     int fila5();
     int fila6();
     int fila7();
-
-
-
 };
 
 #endif // VENTANAJUEGO_HPP

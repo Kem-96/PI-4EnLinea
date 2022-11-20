@@ -21,8 +21,12 @@ public:
     void crearTablero();
     QGraphicsSvgItem* fichas[42];
 
+    QString comprobarActual(QGraphicsSvgItem* act);
+    QGraphicsSvgItem* getActual();
+
 protected:
     QGraphicsTextItem* titulo = nullptr;
+    QGraphicsTextItem* jugador_actual = nullptr;
     BotonJuego* fila1 = nullptr;
     BotonJuego* fila2 = nullptr;
     BotonJuego* fila3 = nullptr;
@@ -48,6 +52,10 @@ signals:
 
 //subrutinas
 protected slots:
+
+
+private:
+    QGraphicsSvgItem* j_actual;
 };
 
 #endif // INICIOJUEGO_HPP

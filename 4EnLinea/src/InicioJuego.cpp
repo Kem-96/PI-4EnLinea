@@ -38,6 +38,38 @@ InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
 
 void InicioJuego::crearEscenaInicioJuego()
 {
+    QGraphicsSvgItem* jugadores[2]; //{1, 2, actual}
+
+    QFont fuenteJugador_actual("Impact", 22);
+    Q_ASSERT(this->jugador_actual == nullptr);
+    this->jugador_actual = new QGraphicsTextItem("Conecta 4");
+    this->jugador_actual->setFont(fuenteJugador_actual);
+    this->jugador_actual = new QGraphicsTextItem("Jugador #1 \n \n \n  \n \nJugador #2 \n \n \n \n \nJugador Actual ");
+    this->jugador_actual->setPos(500,140);
+    this->addItem(jugador_actual);
+
+
+    //jugador #1
+    jugadores[0] = new QGraphicsSvgItem();
+    jugadores[0]->setSharedRenderer(this->svgRenderer);
+    jugadores[0]->setElementId("jugador1");
+    jugadores[0]->setPos(500, 170);
+    this->addItem(jugadores[0]);
+
+    //jugador #2
+    jugadores[1] = new QGraphicsSvgItem();
+    jugadores[1]->setSharedRenderer(this->svgRenderer);
+    jugadores[1]->setElementId("jugador2");
+    jugadores[1]->setPos(500, 250);
+    this->addItem(jugadores[1]);
+
+
+    //jugador actual (imagen alterna entre #1 y #2)
+    j_actual = new QGraphicsSvgItem();
+    j_actual->setSharedRenderer(this->svgRenderer);
+    j_actual->setElementId("jugador1");
+    j_actual->setPos(500, 325);
+    this->addItem(j_actual);
 
 
     QFont fuenteConecta4("Impact", 24);
@@ -110,24 +142,6 @@ void InicioJuego::crearEscenaInicioJuego()
 
     //--------------------------------------------------------------------
 
-    //arreglo random:
-
-    //llenarRandom(arr, size);
-
-    //reflejar en pantalla:
-    //traducir();
-    /*for(int i = 0; i < 42; i++){
-
-        if(tablero[i*2] == (char) 1){
-            fichas[i]->setElementId("ficha1");
-
-        }
-        else if(tablero[i*2] == (char) 2){
-            fichas[i]->setElementId("ficha2");
-
-        }
-    }*/
-
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
@@ -136,22 +150,6 @@ void InicioJuego::crearEscenaInicioJuego()
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 }
-
-/*void InicioJuego::llenarRandom(int arr[], int size){
-        int random;
-        srand(time(NULL));
-        for(int i = 0; i < size; i++){
-               random = rand()%3;
-               arr[i] = random;
-        }
-
-        for(int i = 0; i < size; i++){
-
-               std::cout << arr[i] << ",";
-        }
-        std::cout << "\n";
-}*/
-
 
 void InicioJuego::traducir(){
 
@@ -190,5 +188,15 @@ void  InicioJuego::crearTablero(){
     }
 }
 
+QString InicioJuego::comprobarActual(QGraphicsSvgItem* act){
+    if(act->elementId() == "jugador1")
+        return "jugador2";
+    else
+        return "jugador1";
+}
 
+QGraphicsSvgItem* InicioJuego::getActual(){
+
+    return this->j_actual;
+}
 

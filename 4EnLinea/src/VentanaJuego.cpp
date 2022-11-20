@@ -2,6 +2,7 @@
 
 #include "VentanaJuego.hpp"
 #include "InicioJuego.hpp"
+#include "qgraphicssvgitem.h"
 
 
 extern "C" void inicio();
@@ -33,9 +34,8 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->connect(&this->inicioJuego, &InicioJuego::botonFila7Presionado, this, &VentanaJuego::fila7);
 
 #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-    this->resize(600, 550);
+    this->resize(700, 650);
 #endif
-
     this->menu.setSceneRect(this->rect());
     this->inicioJuego.setSceneRect(this->rect());
     this->integrantes.setSceneRect(this->rect());
@@ -80,6 +80,8 @@ int VentanaJuego::fila1()
     inicioJuego.traducir();
     //inicioJuego.crearTablero();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -89,6 +91,8 @@ int VentanaJuego::fila2()
     inicio();
     inicioJuego.traducir();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -98,6 +102,8 @@ int VentanaJuego::fila3()
     inicio();
     inicioJuego.traducir();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -107,6 +113,8 @@ int VentanaJuego::fila4()
     inicio();
     inicioJuego.traducir();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -116,6 +124,8 @@ int VentanaJuego::fila5()
     inicio();
     inicioJuego.traducir();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -125,6 +135,8 @@ int VentanaJuego::fila6()
     inicio();
     inicioJuego.traducir();
     std::cerr << columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -134,7 +146,8 @@ int VentanaJuego::fila7()
     inicio();
     inicioJuego.traducir();
     std::cerr <<columna <<std::endl;
+
+    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
-
 
