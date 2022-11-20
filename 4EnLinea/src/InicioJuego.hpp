@@ -16,8 +16,8 @@ class InicioJuego : public EscenaJuego
 public:
     int valor = 0;
     explicit InicioJuego(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
-    void llenarRandom(int arr[], int size);
-    void traducir(QGraphicsSvgItem* fichas[], int arr[], int size);
+    void llenarRandom(char arr[], int size);
+    void traducir(QGraphicsSvgItem* fichas[], char arr[], int size);
     void crearTablero(QGraphicsSvgItem* fichas[]);
 
 protected:

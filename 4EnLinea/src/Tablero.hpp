@@ -8,29 +8,16 @@
 using namespace std;
 
 
-extern "C" void inicio();
-extern "C" void imp();
-extern "C" void ejemplo();
+
+
 
 class Tablero
 {
 public:
     Tablero();
 
-    char tablero[84] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                        '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                        '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                        '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                        '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                        '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n'};
 
 
-    int jugador = 50;
-    int columna = 6;
-    string testo = "Columna Llena\n";
-
-    void imp();
-    void ejemplo();
 };
 
 #endif // TABLERO_HPP

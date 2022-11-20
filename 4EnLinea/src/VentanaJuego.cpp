@@ -1,9 +1,11 @@
 #include <QSvgRenderer>
 
 #include "VentanaJuego.hpp"
-#include "Tablero.hpp"
 
+extern "C" void inicio();
 
+int jugador = 50;
+int columna = 6;
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -68,63 +70,63 @@ void VentanaJuego::volverMenu()
     this->setScene(&this->menu);
 }
 
-Tablero* tab = new Tablero();
+
 int VentanaJuego::fila1()
 {
 
-    tab->columna = 0;
+    columna = 0;
     inicio();
 
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila2()
 {
-    tab->columna = 1;
+    columna = 1;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila3()
 {
-    tab->columna = 2;
+    columna = 2;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila4()
 {
-    tab->columna = 3;
+    columna = 3;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila5()
 {
-    tab->columna = 4;
+    columna = 4;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila6()
 {
-    tab->columna = 5;
+    columna = 5;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 int VentanaJuego::fila7()
 {
-    tab->columna = 6;
+    columna = 6;
     inicio();
-    std::cerr << tab->columna <<std::endl;
-    return tab->columna;
+    std::cerr << columna <<std::endl;
+    return columna;
 }
 
 

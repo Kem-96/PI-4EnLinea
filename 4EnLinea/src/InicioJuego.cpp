@@ -4,13 +4,31 @@
 #include <iostream>
 #include <time.h>
 #include <stdlib.h>
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <stdio.h>
+
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
-#include "Tablero.hpp"
+using namespace std;
 
+char tablero[84] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                    '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                    '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                    '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                    '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
+                    '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n'};
 
+string testo = "Columna Llena\n";
 
-Tablero* tab = new Tablero();
+extern "C" void imp(){
+    cout << tablero;
+}
+
+extern "C" void ejemplo(){
+    cout << testo;
+}
 
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
@@ -93,11 +111,11 @@ void InicioJuego::crearEscenaInicioJuego()
     //--------------------------------------------------------------------
 
     //arreglo random:
-    int arr[size];
+
     //llenarRandom(arr, size);
 
     //reflejar en pantalla:
-    traducir(fichas, arr, size);
+    traducir(fichas, tablero, 84);
 
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
@@ -123,13 +141,14 @@ void InicioJuego::crearEscenaInicioJuego()
         std::cout << "\n";
 }*/
 
-void InicioJuego::traducir(QGraphicsSvgItem* fichas[], int arr[], int size){
+
+void InicioJuego::traducir(QGraphicsSvgItem* fichas[], char arr[], int size){
 
     for(int i = 0; i < size; i++){
-            if(tab->tablero[i] == (char) 1){
-                fichas[i]->setElementId("ficha1");
+            if(arr[i] == (char) 1){
+                fichas[i+2]->setElementId("ficha1");
             }
-            else if(tab->tablero[i] == (char) 2){
+            else if(arr[i+2] == (char) 2){
                 fichas[i]->setElementId("ficha2");
             }
         }
