@@ -107,7 +107,24 @@ void InicioJuego::crearEscenaInicioJuego()
 
     //---------------------llenar tablero vacio--------------------------
 
-    crearTablero(fichas);
+    //crearTablero(fichas);    int x = 112;
+    int x = 112;
+    int y = 150;
+    int contador = 0;
+
+    for(int f = 0; f < 6;++f){
+        for(int c = 0; c < 7;++c){
+            fichas[contador] = new QGraphicsSvgItem();
+            fichas[contador]->setSharedRenderer(this->svgRenderer);
+            fichas[contador]->setElementId("celda");
+            fichas[contador]->setPos(x,y);
+            this->addItem(fichas[contador]);
+            x = x + 53;
+            contador++;
+        }
+        x = 112;
+        y = y + 53;
+    }
     //--------------------------------------------------------------------
 
     //arreglo random:
@@ -115,7 +132,16 @@ void InicioJuego::crearEscenaInicioJuego()
     //llenarRandom(arr, size);
 
     //reflejar en pantalla:
-    traducir(fichas, tablero, 84);
+    //traducir(fichas, tablero, 42);
+    for(int i = 0; i < 42; i++){
+
+        if(tablero[i*2] == (char) 1){
+            fichas[i]->setElementId("ficha1");
+        }
+        else if(tablero[i*2] == (char) 2){
+            fichas[i]->setElementId("ficha2");
+        }
+    }
 
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
@@ -142,19 +168,20 @@ void InicioJuego::crearEscenaInicioJuego()
 }*/
 
 
-void InicioJuego::traducir(QGraphicsSvgItem* fichas[], char arr[], int size){
+/*void InicioJuego::traducir(QGraphicsSvgItem* fichas[], char arr[], int size){
 
     for(int i = 0; i < size; i++){
-            if(arr[i] == (char) 1){
-                fichas[i+2]->setElementId("ficha1");
-            }
-            else if(arr[i+2] == (char) 2){
-                fichas[i]->setElementId("ficha2");
-            }
-        }
-}
 
-void  InicioJuego::crearTablero(QGraphicsSvgItem* fichas[]){
+        if(arr[i*2] == (char) 1){
+            fichas[i]->setElementId("ficha1");
+        }
+        else if(arr[i+2] == (char) 2){
+            fichas[i]->setElementId("ficha2");
+        }
+    }
+}*/
+
+/*void  InicioJuego::crearTablero(QGraphicsSvgItem* fichas[]){
     int x = 112;
     int y = 150;
     int contador = 0;
@@ -172,7 +199,7 @@ void  InicioJuego::crearTablero(QGraphicsSvgItem* fichas[]){
         x = 112;
         y = y + 53;
     }
-}
+}*/
 
 
 
