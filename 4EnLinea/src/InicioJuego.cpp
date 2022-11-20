@@ -11,6 +11,7 @@
 
 
 Tablero* tab = new Tablero();
+
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {
@@ -128,7 +129,7 @@ void InicioJuego::traducir(QGraphicsSvgItem* fichas[], int arr[], int size){
             if(tab->tablero[i] == (char) 1){
                 fichas[i]->setElementId("ficha1");
             }
-            else if(tab->tablero[i] == 2){
+            else if(tab->tablero[i] == (char) 2){
                 fichas[i]->setElementId("ficha2");
             }
         }

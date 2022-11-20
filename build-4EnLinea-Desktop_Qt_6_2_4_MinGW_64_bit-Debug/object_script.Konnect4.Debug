@@ -5,6 +5,7 @@ debug/BotonJuego.o
 debug/EscenaJuego.o
 debug/InicioJuego.o
 debug/Menu.o
+debug/Tablero.o
 debug/VentanaJuego.o
 debug/Conecta4.o
 debug/main.o

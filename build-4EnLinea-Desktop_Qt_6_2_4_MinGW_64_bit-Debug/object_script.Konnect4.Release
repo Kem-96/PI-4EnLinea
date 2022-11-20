@@ -5,6 +5,7 @@ release/BotonJuego.o
 release/EscenaJuego.o
 release/InicioJuego.o
 release/Menu.o
+release/Tablero.o
 release/VentanaJuego.o
 release/Conecta4.o
 release/main.o
