@@ -1,9 +1,10 @@
 #include <QSvgRenderer>
 
 #include "VentanaJuego.hpp"
+#include "InicioJuego.hpp"
+
 
 extern "C" void inicio();
-
 int jugador = 50;
 int columna = 6;
 
@@ -76,7 +77,8 @@ int VentanaJuego::fila1()
 
     columna = 0;
     inicio();
-
+    inicioJuego.traducir();
+    //inicioJuego.crearTablero();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -85,6 +87,7 @@ int VentanaJuego::fila2()
 {
     columna = 1;
     inicio();
+    inicioJuego.traducir();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -93,6 +96,7 @@ int VentanaJuego::fila3()
 {
     columna = 2;
     inicio();
+    inicioJuego.traducir();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -101,6 +105,7 @@ int VentanaJuego::fila4()
 {
     columna = 3;
     inicio();
+    inicioJuego.traducir();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -109,6 +114,7 @@ int VentanaJuego::fila5()
 {
     columna = 4;
     inicio();
+    inicioJuego.traducir();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -117,6 +123,7 @@ int VentanaJuego::fila6()
 {
     columna = 5;
     inicio();
+    inicioJuego.traducir();
     std::cerr << columna <<std::endl;
     return columna;
 }
@@ -125,7 +132,8 @@ int VentanaJuego::fila7()
 {
     columna = 6;
     inicio();
-    std::cerr << columna <<std::endl;
+    inicioJuego.traducir();
+    std::cerr <<columna <<std::endl;
     return columna;
 }
 
