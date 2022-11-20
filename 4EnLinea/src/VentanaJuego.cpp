@@ -1,35 +1,9 @@
 #include <QSvgRenderer>
 
 #include "VentanaJuego.hpp"
+#include "Tablero.hpp"
 
 
-#include <iostream>
-#include <string>
-#include <cstring>
-#include <stdio.h>
-using namespace std;
-
-
-extern "C" void inicio();
-
-char tablero[] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
-                  '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n','\n'};
-
-int jugador = 50;
-int columna = 6;
-string testo = "Columna Llena\n";
-
-extern "C" void imp(){
-    cout << tablero;
-}
-
-extern "C" void ejemplo(){
-    cout << testo;
-}
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -94,61 +68,63 @@ void VentanaJuego::volverMenu()
     this->setScene(&this->menu);
 }
 
+Tablero* tab = new Tablero();
 int VentanaJuego::fila1()
 {
-    columna = 0;
+
+    tab->columna = 0;
     inicio();
 
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila2()
 {
-    columna = 1;
+    tab->columna = 1;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila3()
 {
-    columna = 2;
+    tab->columna = 2;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila4()
 {
-    columna = 3;
+    tab->columna = 3;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila5()
 {
-    columna = 4;
+    tab->columna = 4;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila6()
 {
-    columna = 5;
+    tab->columna = 5;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 int VentanaJuego::fila7()
 {
-    columna = 6;
+    tab->columna = 6;
     inicio();
-    std::cerr << columna <<std::endl;
-    return columna;
+    std::cerr << tab->columna <<std::endl;
+    return tab->columna;
 }
 
 

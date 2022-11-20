@@ -27,6 +27,7 @@ SOURCES += \
     src/EscenaJuego.cpp \
     src/InicioJuego.cpp \
     src/Menu.cpp \
+    src/Tablero.cpp \
     src/VentanaJuego.cpp \
     src/Conecta4.cpp \
     src/main.cpp
@@ -38,6 +39,7 @@ HEADERS += \
     src/EscenaJuego.hpp \
     src/InicioJuego.hpp \
     src/Menu.hpp \
+    src/Tablero.hpp \
     src/VentanaJuego.hpp \
     src/Conecta4.hpp
 

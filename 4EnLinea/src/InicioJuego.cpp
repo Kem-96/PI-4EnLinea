@@ -6,10 +6,11 @@
 #include <stdlib.h>
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
+#include "Tablero.hpp"
 
 
 
-
+Tablero* tab = new Tablero();
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {
@@ -122,11 +123,12 @@ void InicioJuego::crearEscenaInicioJuego()
 }*/
 
 void InicioJuego::traducir(QGraphicsSvgItem* fichas[], int arr[], int size){
-        for(int i = 0; i < size; i++){
-            if(arr[i] == (char) 1){
+
+    for(int i = 0; i < size; i++){
+            if(tab->tablero[i] == (char) 1){
                 fichas[i]->setElementId("ficha1");
             }
-            else if(arr[i] == 2){
+            else if(tab->tablero[i] == 2){
                 fichas[i]->setElementId("ficha2");
             }
         }

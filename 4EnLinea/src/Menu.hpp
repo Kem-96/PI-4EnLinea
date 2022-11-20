@@ -13,8 +13,8 @@ class Menu : public EscenaJuego
     Q_DISABLE_COPY_MOVE(Menu)//esto es para desabilitar copias vuelve al mismo menu
 
 protected:
-    //QGraphicsTextItem* tituloJuego = nullptr;
-    QGraphicsSvgItem* tituloJuego = nullptr;
+    QGraphicsTextItem* tituloJuego = nullptr;
+    //QGraphicsSvgItem* tituloJuego = nullptr;
     BotonJuego* botonInstrucciones = nullptr;
     BotonJuego* botonIntegrantes = nullptr;
     BotonJuego* botonInicio = nullptr;
