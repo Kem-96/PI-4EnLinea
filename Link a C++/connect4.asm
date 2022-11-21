@@ -1,7 +1,7 @@
 bits 64
 default rel
 
-global inicio, segu
+global inicio, reinicio
 
 section .data
 	extern tablero
@@ -16,7 +16,6 @@ section .data
 section .bss
     valor: resb 2
     tempPosix: resb 2
-    TheChoosenJuan: resb 2
 	posicion: resb 2
 	
 section .txt
@@ -93,8 +92,6 @@ continueSet:
 	call resetMatch
 	mov al, [casillasLlenas]
 	ret
-	cmp al, 42
-	je nuevoJuego
   
 resetMatch:
 	mov r8b, 0
@@ -104,18 +101,14 @@ resetMatch:
 comprobarGanador:
 	xor rax, rax
 	mov al, [tempPosix]
-	jmp verticalAux
   
 izquierdaAsc:
 	mov r8, izquierdaAsc
 	mov r9, izquierdaDesc
 	sub rax, 15
 	lea r11, [tablero]
-	push rcx
-	mov rcx, [r11+rax]
-	mov rax, rcx
-	pop rcx
-	mov [valor], byte al
+	mov r11, [r11+rax]
+	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
 	dec rax
@@ -128,7 +121,7 @@ izquierdaDesc:
 	mov r9, derechaAux
 	add rax, 15
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -145,7 +138,7 @@ derechaAsc:
 	mov r9, derechaDesc
 	sub rax, 13
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -159,7 +152,7 @@ derechaDesc:
 	mov r9, horizontalAux
 	add rax, 13
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -176,7 +169,7 @@ horizontalIz:
 	mov r9, horizontalDer
 	sub rax, 1
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -190,7 +183,7 @@ horizontalDer:
 	mov r9, verticalAux
 	add rax, 1
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -200,13 +193,7 @@ horizontalDer:
 	jmp auxJump
 	
 verticalAux:
-	;xor rax, rax
 	call resetMatch
-	;mov al, [tempPosix]
-	;lea r11, [tablero]
-	;mov r11, [r11+rax]
-	;mov [ganador], r11b
-	;ret
 	
 verticalDesc:
 	mov r8, verticalDesc
@@ -248,47 +235,26 @@ comprobarFichas:
   
 setGanador:
 	mov [ganador], byte 1
-	;print msgGana,lenGana Mensaje de ganador...
-	;print jugador, 1 el jugador que gano..
-	;printNl Salto de linea...
 	ret
-  
-nuevoJuego:
-	xor rax, rax
-	;print msgNuevo, lenNuevo Mensaje sobre reiniciar el juego...
-	;printNl Mas salto de linea...
-	;input TheChoosenJuan, 2 Input de si sí reinicia el juego o si no...
-	
-	mov al, [TheChoosenJuan]
-	cmp al, 1
-	je reinicio
-	jmp fin
 	
 reinicio:
-	mov rax, "2"
-	mov [jugador], rax
-	mov rax, "5"
-	mov [indice], rax
-	mov rax, 0
-	mov [casillasLlenas], rax
+	mov [jugador], byte 50
+	call resetIndice
+	mov [casillasLlenas], byte 0
 	call resetMatch
+	mov [ganador], byte 0
 	mov rax, 82
-	call nuevoTableroAux
   
 nuevoTableroAux:
 	cmp rax, 0
 	jge nuevoTablero
-	ret
+	jmp fin
 	
 nuevoTablero:
 	lea r11, [tablero]
-	add r11, rax
-	mov r11b, byte "0"
+	mov [r11+rax], byte 48
 	sub rax, 2
 	jmp nuevoTableroAux
-
-impresion:
-	ret
  
 resetIndice:
 	mov al, 5
