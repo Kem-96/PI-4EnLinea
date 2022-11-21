@@ -1,17 +1,16 @@
 bits 64
 default rel
 
-global inicio
+global inicio, segu
 
 section .data
 	extern tablero
 	extern jugador
 	extern columna
+	extern casillasLlenas
+	extern flagColumnaLlena
 	indice: db 5
-	casillasLlenas: db 0
 	match: db 0
-	
-	
 	
 section .bss
     valor: resb 2
@@ -20,38 +19,30 @@ section .bss
 	posicion: resb 2
 	
 section .txt
-	extern imp
-	extern ejemplo
-	extern ExitProcess
+	extern imp, ejemplo, ExitProcess
 
 inicio:
-	call imp
-	xor r8, r8
 	mov r8b, [jugador]
-	;add r8b, 48
 	mov [jugador], r8b
-	;jmp continue ;---------------------------
 	call turn
 	jmp continue
+	
 turn:
 	mov r8b, [jugador]
 	cmp r8b, 49
 	je two
+	jne one
   
-  ;cl contiene el parametro jugador...  
 one:
 	mov [jugador], byte 49
 	ret
+	
 two:
 	mov [jugador], byte 50
 	ret
 
 continue:
-	xor r8, r8
 	mov r8b, [jugador]
-	;Desde aqui para abajo hay que seccionar el codigo...
-  
-  ;Corrige la posicion del indice, ya que "0 0 0" ;hay espacios en las filas,asi que si se inserta en la columna 3, el valor correcto seria el 6.
 	xor r9, r9
 	xor rax, rax
 	mov r9b, [columna]	
@@ -59,7 +50,6 @@ continue:
 	mul r9
 	mov r9b, al
   
-;Multiplica el indice por 14 (que inicia de 5 a 0) y suma la columna ingresada para determinar la posición del tableto, ej, indice 5, columna 0 daria la posición (14*5)+0 = 70, que es la esquina inferior izquierda...
 for:
 	mov al, [indice]		
 	mov r10b, 14
@@ -86,28 +76,22 @@ set:
 	mov [tempPosix], r10
 	call resetIndice
 	call imp
-	;call impresion 			Actualizar tablero...
 	mov al, [casillasLlenas]
 	inc al
 	mov [casillasLlenas], al
 	jmp comprobarGanador
   
 columnaLlena:
-	call ejemplo
+	mov [flagColumnaLlena], byte 1
 	call resetIndice
-	call impresion
 	call turn
 	ret
-	jmp continue
   
 continueSet:
 	call resetMatch
 	mov al, [casillasLlenas]
-	ret ;salirse con el stack
+	ret
 	cmp al, 42
-	;--el problema es en turn...
-	;jl turn
-							;Imprimir tablero lleno...
 	je nuevoJuego
   
 resetMatch:
@@ -140,7 +124,6 @@ izquierdaDesc:
 	mov r8, izquierdaDesc
 	mov r9, derechaAux
 	add rax, 15
-	;mov r11, [tablero+rax]--------------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -158,7 +141,6 @@ derechaAsc:
 	mov r8, derechaAsc
 	mov r9, derechaDesc
 	sub rax, 13
-	;mov r11, [tablero+rax]---------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -173,7 +155,6 @@ derechaDesc:
 	mov r8, derechaDesc
 	mov r9, horizontalAux
 	add rax, 13
-	;mov r11, [tablero+rax]----------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -191,7 +172,6 @@ horizontalIz:
 	mov r8, horizontalIz
 	mov r9, horizontalDer
 	sub rax, 1
-	;mov r11, [tablero+rax]------------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -206,7 +186,6 @@ horizontalDer:
 	mov r8, horizontalDer
 	mov r9, verticalAux
 	add rax, 1
-	;mov r11, [tablero+rax]---------------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -224,7 +203,6 @@ verticalDesc:
 	mov r8, verticalDesc
 	mov r9, continueSet
 	add rax, 14
-	;mov r11, [tablero+rax]--------------
 	lea r11, [tablero]
 	add r11, rax
 	mov [valor], r11b
@@ -238,7 +216,7 @@ comparador:
 	lea r11, [tablero]
 	add r11, rax
 	push rax
-	xor rax, rax
+	xor rdx, rax
 	mov al, [tempPosix]
 	push r10
 	lea r10, [tablero]
@@ -295,19 +273,16 @@ reinicio:
 nuevoTableroAux:
 	cmp rax, 0
 	jge nuevoTablero
-	jmp inicio
+	ret
 	
 nuevoTablero:
-	;mov [tablero+rax], byte "0"-------------
 	lea r11, [tablero]
 	add r11, rax
 	mov r11b, byte "0"
 	sub rax, 2
 	jmp nuevoTableroAux
 
-;Imprime el tablero completo, por eso 84=14*6
 impresion:
-	;mostrar el tablero
 	ret
  
 resetIndice:
@@ -316,5 +291,5 @@ resetIndice:
 	ret
   
 fin:
-	call ExitProcess
+	ret
 	
