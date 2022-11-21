@@ -44,7 +44,7 @@ void InicioJuego::crearEscenaInicioJuego()
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(30, 480);
+    this->botonAtras->setPos(30, 560);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 
@@ -173,6 +173,22 @@ void InicioJuego::crearEscenaInicioJuego()
     this->fila7->setPos(436, 90);
     this->addItem(this->fila7);
     this->connect(this->fila7, &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
+
+    QFont fuenteReinicio("Calibri", 12);
+    Q_ASSERT(this->reinicio == nullptr);
+    this->reinicio = new QGraphicsTextItem("Reinicio");
+    this->reinicio->setFont(fuenteReinicio);
+    //qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
+    this->reinicio->setPos(555, 520);
+    this->addItem(this->reinicio);
+
+    Q_ASSERT(this->botonReinicio == nullptr);
+    this->botonReinicio = new BotonJuego();
+    this->botonReinicio->setSharedRenderer(this->svgRenderer);
+    this->botonReinicio->setElementId("botonReinicio");
+    this->botonReinicio->setPos(565, 555);
+    this->addItem(this->botonReinicio);
+    this->connect(this->botonReinicio, &BotonJuego::clicked, this, &InicioJuego::botonReinicioPresionado);
 
     //---------------------llenar tablero vacio--------------------------
 

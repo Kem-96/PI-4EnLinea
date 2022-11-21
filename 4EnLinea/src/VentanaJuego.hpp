@@ -39,6 +39,7 @@ protected slots:
     int fila5();
     int fila6();
     int fila7();
+    void reinicioVentana();
 };
 
 #endif // VENTANAJUEGO_HPP

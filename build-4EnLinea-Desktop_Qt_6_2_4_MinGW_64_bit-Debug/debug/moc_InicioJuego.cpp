@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_InicioJuego_t {
-    const uint offsetsAndSize[20];
-    char stringdata0[181];
+    const uint offsetsAndSize[22];
+    char stringdata0[205];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_InicioJuego_t, stringdata0) + ofs), len 
@@ -38,14 +38,15 @@ QT_MOC_LITERAL(76, 20), // "botonFila4Presionado"
 QT_MOC_LITERAL(97, 20), // "botonFila5Presionado"
 QT_MOC_LITERAL(118, 20), // "botonFila6Presionado"
 QT_MOC_LITERAL(139, 20), // "botonFila7Presionado"
-QT_MOC_LITERAL(160, 20) // "botonAtrasPresionado"
+QT_MOC_LITERAL(160, 20), // "botonAtrasPresionado"
+QT_MOC_LITERAL(181, 23) // "botonReinicioPresionado"
 
     },
     "InicioJuego\0botonFila1Presionado\0\0"
     "botonFila2Presionado\0botonFila3Presionado\0"
     "botonFila4Presionado\0botonFila5Presionado\0"
     "botonFila6Presionado\0botonFila7Presionado\0"
-    "botonAtrasPresionado"
+    "botonAtrasPresionado\0botonReinicioPresionado"
 };
 #undef QT_MOC_LITERAL
 
@@ -55,24 +56,26 @@ static const uint qt_meta_data_InicioJuego[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+       9,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       8,       // signalCount
+       9,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x06,    1 /* Public */,
-       3,    0,   63,    2, 0x06,    2 /* Public */,
-       4,    0,   64,    2, 0x06,    3 /* Public */,
-       5,    0,   65,    2, 0x06,    4 /* Public */,
-       6,    0,   66,    2, 0x06,    5 /* Public */,
-       7,    0,   67,    2, 0x06,    6 /* Public */,
-       8,    0,   68,    2, 0x06,    7 /* Public */,
-       9,    0,   69,    2, 0x06,    8 /* Public */,
+       1,    0,   68,    2, 0x06,    1 /* Public */,
+       3,    0,   69,    2, 0x06,    2 /* Public */,
+       4,    0,   70,    2, 0x06,    3 /* Public */,
+       5,    0,   71,    2, 0x06,    4 /* Public */,
+       6,    0,   72,    2, 0x06,    5 /* Public */,
+       7,    0,   73,    2, 0x06,    6 /* Public */,
+       8,    0,   74,    2, 0x06,    7 /* Public */,
+       9,    0,   75,    2, 0x06,    8 /* Public */,
+      10,    0,   76,    2, 0x06,    9 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -99,6 +102,7 @@ void InicioJuego::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 5: _t->botonFila6Presionado(); break;
         case 6: _t->botonFila7Presionado(); break;
         case 7: _t->botonAtrasPresionado(); break;
+        case 8: _t->botonReinicioPresionado(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -159,6 +163,13 @@ void InicioJuego::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
                 return;
             }
         }
+        {
+            using _t = void (InicioJuego::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&InicioJuego::botonReinicioPresionado)) {
+                *result = 8;
+                return;
+            }
+        }
     }
     (void)_a;
 }
@@ -170,7 +181,7 @@ const QMetaObject InicioJuego::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_InicioJuego_t
-, QtPrivate::TypeAndForceComplete<InicioJuego, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
+, QtPrivate::TypeAndForceComplete<InicioJuego, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 
@@ -198,13 +209,13 @@ int InicioJuego::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 9;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 9)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 9;
     }
     return _id;
 }
@@ -255,6 +266,12 @@ void InicioJuego::botonFila7Presionado()
 void InicioJuego::botonAtrasPresionado()
 {
     QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void InicioJuego::botonReinicioPresionado()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

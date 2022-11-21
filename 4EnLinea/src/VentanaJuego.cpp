@@ -70,6 +70,7 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     this->connect(&this->inicioJuego, &InicioJuego::botonFila5Presionado, this, &VentanaJuego::fila5);
     this->connect(&this->inicioJuego, &InicioJuego::botonFila6Presionado, this, &VentanaJuego::fila6);
     this->connect(&this->inicioJuego, &InicioJuego::botonFila7Presionado, this, &VentanaJuego::fila7);
+    this->connect(&this->inicioJuego, &InicioJuego::botonReinicioPresionado, this, &VentanaJuego::reinicioVentana);
 
 #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->resize(700, 650);
@@ -183,5 +184,12 @@ int VentanaJuego::fila7()
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
+}
+
+void VentanaJuego::reinicioVentana()
+{
+    //falta hacer que pregunte si esta seguro que perdera el avance qmessageDialog
+    reinicio();
+    inicioJuego.traducir(1);
 }
 

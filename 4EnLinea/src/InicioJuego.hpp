@@ -27,6 +27,7 @@ public:
 protected:
     QGraphicsTextItem* titulo = nullptr;
     QGraphicsTextItem* jugador_actual = nullptr;
+    QGraphicsTextItem* reinicio = nullptr;
     BotonJuego* fila1 = nullptr;
     BotonJuego* fila2 = nullptr;
     BotonJuego* fila3 = nullptr;
@@ -38,6 +39,7 @@ protected:
     QGraphicsSvgItem* ficha1 = nullptr;
     QGraphicsSvgItem* ficha2 = nullptr;
     BotonJuego* botonAtras = nullptr;
+    BotonJuego* botonReinicio = nullptr;
     void crearEscenaInicioJuego();
 
 signals:
@@ -49,6 +51,7 @@ signals:
     void botonFila6Presionado();
     void botonFila7Presionado();
     void botonAtrasPresionado();
+    void botonReinicioPresionado();
 
 //subrutinas
 protected slots:
