@@ -45,17 +45,19 @@ void simulacionBoton(int col){
 		ejemplo();
 		flagColumnaLlena = 0;
 	}
-	
+	if (ganador == 1){
+		cout << gana << endl;
+	}
 }
 int main(){
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(0);
-	simulacionBoton(6);
+	simulacionBoton(1);
+	simulacionBoton(2);
+	simulacionBoton(1);
+	simulacionBoton(2);
+	simulacionBoton(1);
+	simulacionBoton(2);
+	simulacionBoton(1);
+	//simulacionBoton(6);
 	return 0;
 }
 

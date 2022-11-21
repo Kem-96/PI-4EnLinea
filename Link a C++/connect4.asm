@@ -9,6 +9,7 @@ section .data
 	extern columna
 	extern casillasLlenas
 	extern flagColumnaLlena
+	extern ganador
 	indice: db 5
 	match: db 0
 	
@@ -58,7 +59,8 @@ for:
 	add r10b, r9b
 	mov al, r10b
 	lea r11, [tablero]
-	cmp [r11+rax], byte 48
+	mov r11, [r11+rax]
+	cmp r11b, byte 48
 	je set
   
 aux:
@@ -102,6 +104,7 @@ resetMatch:
 comprobarGanador:
 	xor rax, rax
 	mov al, [tempPosix]
+	jmp verticalAux
   
 izquierdaAsc:
 	mov r8, izquierdaAsc
@@ -197,14 +200,20 @@ horizontalDer:
 	jmp auxJump
 	
 verticalAux:
+	;xor rax, rax
 	call resetMatch
+	;mov al, [tempPosix]
+	;lea r11, [tablero]
+	;mov r11, [r11+rax]
+	;mov [ganador], r11b
+	;ret
 	
 verticalDesc:
 	mov r8, verticalDesc
 	mov r9, continueSet
 	add rax, 14
 	lea r11, [tablero]
-	add r11, rax
+	mov r11, [r11+rax]
 	mov [valor], r11b
 	cmp byte [valor], 10
 	je auxJump
@@ -214,35 +223,31 @@ verticalDesc:
 
 comparador:
 	lea r11, [tablero]
-	add r11, rax
+	mov cl, [r11+rax]
 	push rax
-	xor rdx, rax
+	xor rax, rax
 	mov al, [tempPosix]
-	push r10
-	lea r10, [tablero]
-	add r10, rax
-	cmp r11b, r10b
-	pop r10
+	mov r11b, [r11+rax]
 	pop rax
+	cmp cl, r11b
 	je setMatch
 	jne auxJump
 	
 auxJump:
-	mov rax, [tempPosix]
+	xor rax, rax
+	mov al, [tempPosix]
 	jmp r9
   
 setMatch:
-	mov r11b, [match]
-	inc r11b
-	mov [match], r11b
+	add [match], byte 1
 	
 comprobarFichas:
-	mov r11b, [match]
-	cmp r11b, 3
-	je ganador
+	cmp byte [match], 3
+	je setGanador
 	jmp r8
   
-ganador:
+setGanador:
+	mov [ganador], byte 1
 	;print msgGana,lenGana Mensaje de ganador...
 	;print jugador, 1 el jugador que gano..
 	;printNl Salto de linea...
