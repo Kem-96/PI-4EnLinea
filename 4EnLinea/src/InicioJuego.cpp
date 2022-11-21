@@ -8,9 +8,12 @@
 #include <string>
 #include <cstring>
 #include <stdio.h>
-
+#include <QFrame>
+#include <QLabel>
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
+
+
 using namespace std;
 
 char tablero[84] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
@@ -32,51 +35,87 @@ extern "C" void ejemplo(){
 
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
-{
+{  
     this->crearEscenaInicioJuego();
 }
 
 void InicioJuego::crearEscenaInicioJuego()
 {
-    QGraphicsSvgItem* jugadores[2]; //{1, 2, actual}
+    Q_ASSERT(this->botonAtras == nullptr);
+    this->botonAtras = new BotonJuego();
+    this->botonAtras->setSharedRenderer(this->svgRenderer);
+    this->botonAtras->setElementId("botonAtras");
+    this->botonAtras->setPos(30, 480);
+    this->addItem(this->botonAtras);
+    this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 
-    QFont fuenteJugador_actual("Impact", 22);
+    //Marcos
+    QLabel* label = new QLabel();
+    label->setFrameStyle(QFrame::Box | QFrame::Plain);
+    label->setGeometry(QRect(105, 80, 21, 20));
+    label->setFixedHeight(400);
+    label->setFixedWidth(385);
+    label->setStyleSheet("background-color: rgba(102, 255, 255, 90);");
+
+    this->addWidget(label);
+
+
+    QLabel* label1 = new QLabel();
+    label1->setFrameStyle(QFrame::Box | QFrame::Plain);
+    label1->setGeometry(QRect(105, 485, 21, 20));
+    label1->setFixedHeight(125);
+    label1->setFixedWidth(525);
+    label1->setStyleSheet("background-color: rgba(102, 255, 255, 90);");
+
+    this->addWidget(label1);
+
+    QLabel* label2 = new QLabel();
+    label2->setFrameStyle(QFrame::Box | QFrame::Plain);
+    label2->setGeometry(QRect(495, 80, 21, 20));
+    label2->setFixedHeight(400);
+    label2->setFixedWidth(135);
+    label2->setStyleSheet("background-color: rgba(102, 255, 255, 90);");
+
+    this->addWidget(label2);
+
+
+
+    QGraphicsSvgItem* jugadores[2]; //{1 , 2}
+
+    QFont fuenteJugador_actual("Calibri", 14);
     Q_ASSERT(this->jugador_actual == nullptr);
-    this->jugador_actual = new QGraphicsTextItem("Conecta 4");
+    fuenteJugador_actual.setBold(true);
+    this->jugador_actual = new QGraphicsTextItem("Jugador1 \n \n \n  \n \nJugador2 \n \n \n \n \n  Turno ");
     this->jugador_actual->setFont(fuenteJugador_actual);
-    this->jugador_actual = new QGraphicsTextItem("Jugador #1 \n \n \n  \n \nJugador #2 \n \n \n \n \nJugador Actual ");
-    this->jugador_actual->setPos(500,140);
+
+    this->jugador_actual->setPos(520,120);
     this->addItem(jugador_actual);
-
-
     //jugador #1
     jugadores[0] = new QGraphicsSvgItem();
     jugadores[0]->setSharedRenderer(this->svgRenderer);
     jugadores[0]->setElementId("jugador1");
-    jugadores[0]->setPos(500, 170);
+    jugadores[0]->setPos(530, 155);
     this->addItem(jugadores[0]);
 
     //jugador #2
     jugadores[1] = new QGraphicsSvgItem();
     jugadores[1]->setSharedRenderer(this->svgRenderer);
     jugadores[1]->setElementId("jugador2");
-    jugadores[1]->setPos(500, 250);
+    jugadores[1]->setPos(530, 270);
     this->addItem(jugadores[1]);
-
 
     //jugador actual (imagen alterna entre #1 y #2)
     j_actual = new QGraphicsSvgItem();
     j_actual->setSharedRenderer(this->svgRenderer);
     j_actual->setElementId("jugador1");
-    j_actual->setPos(500, 325);
+    j_actual->setPos(530, 385);
     this->addItem(j_actual);
 
-
-    QFont fuenteConecta4("Impact", 24);
+    QFont fuenteConecta4("Calibri", 24);
     Q_ASSERT(this->titulo == nullptr);
     this->titulo = new QGraphicsTextItem("Conecta 4");
     this->titulo->setFont(fuenteConecta4);
-    qreal tituloJuegoX = (600 - this->titulo->boundingRect().width())/2.0;
+    qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
     this->titulo->setPos(tituloJuegoX, 20);
     this->addItem(this->titulo);
 
@@ -142,13 +181,9 @@ void InicioJuego::crearEscenaInicioJuego()
 
     //--------------------------------------------------------------------
 
-    Q_ASSERT(this->botonAtras == nullptr);
-    this->botonAtras = new BotonJuego();
-    this->botonAtras->setSharedRenderer(this->svgRenderer);
-    this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(30, 480);
-    this->addItem(this->botonAtras);
-    this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
+
+
+
 }
 
 void InicioJuego::traducir(){
