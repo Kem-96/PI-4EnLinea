@@ -1,13 +1,51 @@
 #include <QSvgRenderer>
-
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <stdio.h>
 #include "VentanaJuego.hpp"
 #include "InicioJuego.hpp"
 #include "qgraphicssvgitem.h"
 
+using namespace std;
 
 extern "C" void inicio();
+extern "C" void reinicio();
+
 int jugador = 50;
 int columna = 6;
+int casillasLlenas = 0;
+int flagColumnaLlena = 0;
+int ganador = 0;
+
+string gana = "Ha ganado el jugador ";
+string testo = "Columna Llena\n";
+
+extern "C" void ejemplo(){
+    cout << testo;
+}
+
+void solicitudReinicio(){
+    cout << "¿Quiere reiniciar el juego?" << endl;
+}
+
+void simulacionBoton(int col){
+    columna = col;
+    inicio();
+    if (flagColumnaLlena == 1){
+        ejemplo();
+        flagColumnaLlena = 0;
+    }
+    if (ganador == 1){
+        cout << gana << (jugador-48) << ". ";
+        solicitudReinicio();
+    }
+    if (casillasLlenas == 42){
+        cout << "Tablero lleno. ";
+        solicitudReinicio();
+    }
+}
+
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -67,7 +105,8 @@ void VentanaJuego::mostrarInstrucciones()
 
 void VentanaJuego::volverMenu()
 {
-
+    reinicio();
+    inicioJuego.traducir(1);
     this->setScene(&this->menu);
 }
 
@@ -75,9 +114,8 @@ void VentanaJuego::volverMenu()
 int VentanaJuego::fila1()
 {
 
-    columna = 0;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(0);
+    inicioJuego.traducir(0);
     //inicioJuego.crearTablero();
     std::cerr << columna <<std::endl;
 
@@ -87,9 +125,10 @@ int VentanaJuego::fila1()
 
 int VentanaJuego::fila2()
 {
-    columna = 1;
-    inicio();
-    inicioJuego.traducir();
+    /*columna = 1;
+    inicio();*/
+    simulacionBoton(1);
+    inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
@@ -98,9 +137,8 @@ int VentanaJuego::fila2()
 
 int VentanaJuego::fila3()
 {
-    columna = 2;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(2);
+    inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
@@ -109,9 +147,8 @@ int VentanaJuego::fila3()
 
 int VentanaJuego::fila4()
 {
-    columna = 3;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(3);
+    inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
@@ -120,9 +157,8 @@ int VentanaJuego::fila4()
 
 int VentanaJuego::fila5()
 {
-    columna = 4;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(4);
+    inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
@@ -131,9 +167,8 @@ int VentanaJuego::fila5()
 
 int VentanaJuego::fila6()
 {
-    columna = 5;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(5);
+    inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
@@ -142,9 +177,8 @@ int VentanaJuego::fila6()
 
 int VentanaJuego::fila7()
 {
-    columna = 6;
-    inicio();
-    inicioJuego.traducir();
+    simulacionBoton(6);
+    inicioJuego.traducir(0);
     std::cerr <<columna <<std::endl;
 
     inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));

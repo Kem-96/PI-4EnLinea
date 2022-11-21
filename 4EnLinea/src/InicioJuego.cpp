@@ -23,15 +23,14 @@ char tablero[84] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0'
                     '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n',
                     '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n'};
 
-string testo = "Columna Llena\n";
+
 
 extern "C" void imp(){
     cout << tablero;
 }
 
-extern "C" void ejemplo(){
-    cout << testo;
-}
+
+
 
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
@@ -186,19 +185,23 @@ void InicioJuego::crearEscenaInicioJuego()
 
 }
 
-void InicioJuego::traducir(){
+void InicioJuego::traducir(int reinicio){
 
     for(int i = 0; i < 42; i++){
-        cout << tablero[i*2] << endl;
-        if(tablero[i*2] == '1'){
-            cout << tablero[i*2] << endl;
+       // cout << tablero[i*2] << endl;
+        if(tablero[i*2] == '1' && reinicio == 0){
+
+            //cout << tablero[i*2] << endl;
 
             fichas[i]->setElementId("ficha1");
-            this->addItem(fichas[i]);
+            //this->addItem(fichas[i]);
         }
-        else if(tablero[i*2] == '2'){
+        else if(tablero[i*2] == '2' && reinicio == 0){
             fichas[i]->setElementId("ficha2");
-            this->addItem(fichas[i]);
+            //this->addItem(fichas[i]);
+        }
+        else{
+            fichas[i]->setElementId("celda");
         }
     }
 }

@@ -17,7 +17,7 @@ public:
     int valor = 0;
     explicit InicioJuego(QSvgRenderer* svgRenderer, QObject *parent = nullptr);
     void llenarRandom(char arr[], int size);
-    void traducir();
+    void traducir(int reinicio);
     void crearTablero();
     QGraphicsSvgItem* fichas[42];
 
