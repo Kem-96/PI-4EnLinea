@@ -190,6 +190,7 @@ void VentanaJuego::reinicioVentana()
 {
     //falta hacer que pregunte si esta seguro que perdera el avance qmessageDialog
     reinicio();
+    inicioJuego.getActual()->setElementId("jugador1");
     inicioJuego.traducir(1);
 }
 
