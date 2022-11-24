@@ -44,7 +44,7 @@ void InicioJuego::crearEscenaInicioJuego()
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(30, 560);
+    this->botonAtras->setPos(20, 590);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &InicioJuego::botonAtrasPresionado);
 
@@ -110,12 +110,12 @@ void InicioJuego::crearEscenaInicioJuego()
     j_actual->setPos(530, 385);
     this->addItem(j_actual);
 
-    QFont fuenteConecta4("Calibri", 24);
+    QFont fuenteConecta4("Impact", 24);
     Q_ASSERT(this->titulo == nullptr);
     this->titulo = new QGraphicsTextItem("Conecta 4");
     this->titulo->setFont(fuenteConecta4);
     qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
-    this->titulo->setPos(tituloJuegoX, 20);
+    this->titulo->setPos(tituloJuegoX, 15);
     this->addItem(this->titulo);
 
     Q_ASSERT(this->fila1 == nullptr);

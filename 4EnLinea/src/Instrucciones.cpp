@@ -20,21 +20,21 @@ void Instrucciones::crearEscenaInstrucciones()
     this->reglas = new QGraphicsTextItem("Reglas\n");
     this->reglas->setFont(fuenteReglas);
     qreal tituloReglasX = (700 - this->reglas->boundingRect().width())/2.0;
-    this->reglas->setPos(tituloReglasX, 20);
+    this->reglas->setPos(tituloReglasX, 70);
     this->addItem(this->reglas);
 
     Q_ASSERT(this->instrucciones == nullptr);
-    this->instrucciones = new QGraphicsTextItem("\n\n[1] El juego consiste en colocar figuras\n hasta que se cumplan alguna condición:\n\n - Uno de los jugadores gana.\n - El tablero se llena.\n \n[2] Cada jugador coloca una ficha de su\n color la columna que desee.\n  \n[3] El que consigue colocar 4 fichas\ndel mismo color en linea (en horizontal, \nvertical u oblicuo), gana.");
+    this->instrucciones = new QGraphicsTextItem("\n\n[1]\tEl juego consiste en colocar fichas\n\thasta que se cumpla alguna condición:\n\n\t\t▸ Uno de los jugadores gana.\n\t\t▸ El tablero se llena. (Empate)\n\n[2]\tCada jugador, en su respectivo turno,\n\tcoloca una ficha de su color en la\n\tcolumna que desee.\n\n[3]\tEl que consiga colocar 4 fichas\n\tdel mismo color en línea horizontal, \n\tvertical u oblicua, gana.");
     this->instrucciones->setFont(fuenteInstrucciones);
     qreal tituloInstruccionesX = (700 - this->instrucciones->boundingRect().width())/2.0;
-    this->instrucciones->setPos(tituloInstruccionesX, 45);
+    this->instrucciones->setPos(tituloInstruccionesX, 95);
     this->addItem(this->instrucciones);
 
     Q_ASSERT(this->botonAtras == nullptr);
     this->botonAtras = new BotonJuego();
     this->botonAtras->setSharedRenderer(this->svgRenderer);
     this->botonAtras->setElementId("botonAtras");
-    this->botonAtras->setPos(30, 480);
+    this->botonAtras->setPos(20, 590);
     this->addItem(this->botonAtras);
     this->connect(this->botonAtras, &BotonJuego::clicked, this, &Instrucciones::botonAtrasPresionado);
 }
