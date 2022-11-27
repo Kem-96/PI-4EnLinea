@@ -3,9 +3,12 @@
 #include <string>
 #include <cstring>
 #include <stdio.h>
+#include <QMessageBox>
+
 #include "VentanaJuego.hpp"
 #include "InicioJuego.hpp"
 #include "qgraphicssvgitem.h"
+
 
 using namespace std;
 
@@ -29,7 +32,7 @@ void solicitudReinicio(){
     cout << "¿Quiere reiniciar el juego?" << endl;
 }
 
-void simulacionBoton(int col){
+void VentanaJuego::simulacionBoton(int col){
     columna = col;
     inicio();
     if (flagColumnaLlena == 1){
@@ -37,15 +40,12 @@ void simulacionBoton(int col){
         flagColumnaLlena = 0;
     }
     if (ganador == 1){
-        cout << gana << (jugador-48) << ". ";
-        solicitudReinicio();
+       agregarGanador();
     }
     if (casillasLlenas == 42){
-        cout << "Tablero lleno. ";
-        solicitudReinicio();
+        reinicioVentana();
     }
 }
-
 
 VentanaJuego::VentanaJuego(QWidget *parent)
     : QGraphicsView{parent}
@@ -83,7 +83,6 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     //esto desactiva las barras
     this->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     this->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-
 }
 
 
@@ -103,6 +102,7 @@ void VentanaJuego::mostrarInstrucciones()
 {
     this->setScene(&this->instrucciones);
 }
+
 
 void VentanaJuego::volverMenu()
 {
@@ -186,11 +186,36 @@ int VentanaJuego::fila7()
     return columna;
 }
 
+void VentanaJuego::reiniciar()
+{
+    reinicio();
+    inicioJuego.traducir(1);
+    inicioJuego.getActual()->setElementId("jugador1");
+}
+
 void VentanaJuego::reinicioVentana()
 {
-    //falta hacer que pregunte si esta seguro que perdera el avance qmessageDialog
-    reinicio();
-    inicioJuego.getActual()->setElementId("jugador1");
-    inicioJuego.traducir(1);
+    QMessageBox msgBox;
+
+    msgBox.setText("¿Quiere reiniciar el juego?");
+    msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Yes);
+
+    int ret = msgBox.exec();
+
+    switch (ret) {
+      case QMessageBox::Yes:
+          reiniciar();
+          break;
+    }
 }
+
+void VentanaJuego::agregarGanador(){
+    QMessageBox msgGanador;
+    std::string completo = gana + std::to_string(ganador) + ".";
+    msgGanador.setText(completo.c_str());
+    msgGanador.exec();
+    reiniciar();
+}
+
+
 

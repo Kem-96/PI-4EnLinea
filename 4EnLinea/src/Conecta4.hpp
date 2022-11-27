@@ -18,5 +18,4 @@ public:
     ~Conecta4();
     int run();
 };
-
 #endif // CONECTA4_HPP

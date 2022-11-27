@@ -22,14 +22,6 @@ void Menu::crearEscena()
     this->tituloJuego->setPos(tituloJuegoX, 80);
     this->addItem(this->tituloJuego);
 
-    /*Q_ASSERT(this->tituloJuego == nullptr);
-    this->tituloJuego = new QGraphicsSvgItem();
-    this->tituloJuego->setSharedRenderer(this->svgRenderer);
-    this->tituloJuego->setElementId("titulo");
-    qreal tituloJuegoX = (600 - this->tituloJuego->boundingRect().width())/2.0;
-    this->tituloJuego->setPos(tituloJuegoX-100, -100);
-    this->addItem(this->tituloJuego);*/
-
     Q_ASSERT(this->botonInstrucciones == nullptr);
     this->botonInstrucciones = new BotonJuego();
     this->botonInstrucciones->setSharedRenderer(this->svgRenderer);

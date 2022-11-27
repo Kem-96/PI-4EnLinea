@@ -30,8 +30,6 @@ extern "C" void imp(){
 }
 
 
-
-
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {  
@@ -76,7 +74,6 @@ void InicioJuego::crearEscenaInicioJuego()
     label2->setStyleSheet("background-color: rgba(102, 255, 255, 90);");
 
     this->addWidget(label2);
-
 
 
     QGraphicsSvgItem* jugadores[2]; //{1 , 2}
@@ -197,26 +194,24 @@ void InicioJuego::crearEscenaInicioJuego()
     //--------------------------------------------------------------------
 
 
-
-
 }
 
 void InicioJuego::traducir(int reinicio){
 
+
     for(int i = 0; i < 42; i++){
        // cout << tablero[i*2] << endl;
-        if(tablero[i*2] == '1' && reinicio == 0){
-
-            //cout << tablero[i*2] << endl;
+        if(tablero[i*2] == '1'){
 
             fichas[i]->setElementId("ficha1");
-            //this->addItem(fichas[i]);
+
         }
-        else if(tablero[i*2] == '2' && reinicio == 0){
+        else if(tablero[i*2] == '2'){
             fichas[i]->setElementId("ficha2");
-            //this->addItem(fichas[i]);
+
         }
-        else{
+
+        if(reinicio == 1){
             fichas[i]->setElementId("celda");
         }
     }

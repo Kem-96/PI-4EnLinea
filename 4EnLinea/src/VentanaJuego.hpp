@@ -7,8 +7,6 @@
 #include "Instrucciones.hpp"
 #include "Menu.hpp"
 
-
-
 class QSvgRenderer;
 
 class VentanaJuego : public QGraphicsView
@@ -21,10 +19,12 @@ protected:
     InicioJuego inicioJuego;
     Integrantes integrantes;
     Instrucciones instrucciones;
+    QGraphicsTextItem* Mganador = nullptr;
 
 
 public:
     explicit VentanaJuego(QWidget *parent = nullptr);
+
 
 //para crear subrutinas
 protected slots:
@@ -39,7 +39,11 @@ protected slots:
     int fila5();
     int fila6();
     int fila7();
+    void reiniciar();
     void reinicioVentana();
+    void simulacionBoton(int col);
+
+    void agregarGanador();
 };
 
 #endif // VENTANAJUEGO_HPP
