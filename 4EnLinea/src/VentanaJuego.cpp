@@ -4,10 +4,12 @@
 #include <cstring>
 #include <stdio.h>
 #include <QMessageBox>
+#include <vector>
 
 #include "VentanaJuego.hpp"
 #include "InicioJuego.hpp"
 #include "qgraphicssvgitem.h"
+#include "BotonJuego.hpp"
 
 
 using namespace std;
@@ -23,6 +25,7 @@ int ganador = 0;
 
 string gana = "Ha ganado el jugador ";
 string testo = "Columna Llena\n";
+string reinicioGanador = "¿Quiere reiniciar el juego?";
 
 extern "C" void ejemplo(){
     cout << testo;
@@ -32,19 +35,39 @@ void solicitudReinicio(){
     cout << "¿Quiere reiniciar el juego?" << endl;
 }
 
+void VentanaJuego::deshabilitarBotones(){
+    for (int i = 0; i < 7; i++){
+        inicioJuego.botones[i]->setEnabled(false);
+    }
+}
+
+void VentanaJuego::habilitarBotones(){
+    for (int i = 0; i < 7; i++){
+        inicioJuego.botones[i]->setEnabled(true);
+    }
+}
+
 void VentanaJuego::simulacionBoton(int col){
     columna = col;
     inicio();
-    if (flagColumnaLlena == 1){
+    if (ganador == 1){
+        deshabilitarBotones();
+        inicioJuego.traducir(0);
+        agregarGanador();
+    }
+    else if (casillasLlenas == 42){
+        deshabilitarBotones();
+        inicioJuego.traducir(0);
+        reinicioGanador = "Tablero lleno. ¿Quiere reiniciar el juego?";
+        reinicioVentana();
+    }
+    else if (flagColumnaLlena == 1){
         ejemplo();
         flagColumnaLlena = 0;
     }
-    if (ganador == 1){
-       agregarGanador();
-    }
-    if (casillasLlenas == 42){
-        reinicioVentana();
-    }
+    else
+        inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
+    reinicioGanador = "¿Quiere reiniciar el juego?";
 }
 
 VentanaJuego::VentanaJuego(QWidget *parent)
@@ -106,8 +129,6 @@ void VentanaJuego::mostrarInstrucciones()
 
 void VentanaJuego::volverMenu()
 {
-    reinicio();
-    inicioJuego.traducir(1);
     this->setScene(&this->menu);
 }
 
@@ -120,7 +141,6 @@ int VentanaJuego::fila1()
     //inicioJuego.crearTablero();
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -132,7 +152,6 @@ int VentanaJuego::fila2()
     inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -142,7 +161,6 @@ int VentanaJuego::fila3()
     inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -152,7 +170,6 @@ int VentanaJuego::fila4()
     inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -162,7 +179,6 @@ int VentanaJuego::fila5()
     inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -172,7 +188,6 @@ int VentanaJuego::fila6()
     inicioJuego.traducir(0);
     std::cerr << columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
@@ -182,40 +197,44 @@ int VentanaJuego::fila7()
     inicioJuego.traducir(0);
     std::cerr <<columna <<std::endl;
 
-    inicioJuego.getActual()->setElementId(inicioJuego.comprobarActual(inicioJuego.getActual()));
     return columna;
 }
 
 void VentanaJuego::reiniciar()
 {
     reinicio();
+    habilitarBotones();
     inicioJuego.traducir(1);
     inicioJuego.getActual()->setElementId("jugador1");
 }
 
 void VentanaJuego::reinicioVentana()
 {
+    //Inspirado en https://doc.qt.io/qt-6/qmessagebox.html
     QMessageBox msgBox;
-
-    msgBox.setText("¿Quiere reiniciar el juego?");
-    msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Yes);
+    msgBox.setText(reinicioGanador.c_str());
+    msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Ok);
 
     int ret = msgBox.exec();
 
     switch (ret) {
-      case QMessageBox::Yes:
+      case QMessageBox::Ok:
           reiniciar();
           break;
     }
 }
 
 void VentanaJuego::agregarGanador(){
-    QMessageBox msgGanador;
-    std::string completo = gana + std::to_string(ganador) + ".";
-    msgGanador.setText(completo.c_str());
-    msgGanador.exec();
-    reiniciar();
+    reinicioGanador = gana + std::to_string(jugador - 48) + ". ¿Quieres reiniciar el juegamen?";
+    QMessageBox msgBox;
+    msgBox.setText(reinicioGanador.c_str());
+    msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Ok);
+
+    int ret = msgBox.exec();
+
+    switch (ret) {
+      case QMessageBox::Ok:
+          reiniciar();
+          break;
+    }
 }
-
-
-

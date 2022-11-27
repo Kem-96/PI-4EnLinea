@@ -20,6 +20,8 @@ protected:
     Integrantes integrantes;
     Instrucciones instrucciones;
     QGraphicsTextItem* Mganador = nullptr;
+    void deshabilitarBotones();
+    void habilitarBotones();
 
 
 public:

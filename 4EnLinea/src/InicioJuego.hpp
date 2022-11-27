@@ -20,6 +20,8 @@ public:
     void traducir(int reinicio);
     void crearTablero();
     QGraphicsSvgItem* fichas[42];
+    BotonJuego* botones[7];
+
 
     QString comprobarActual(QGraphicsSvgItem* act);
     QGraphicsSvgItem* getActual();

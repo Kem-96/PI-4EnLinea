@@ -10,14 +10,14 @@ BotonJuego::BotonJuego(QGraphicsItem *parentItem)
     this->setFocus();
 }
 
-void BotonJuego::keyPressEvent(QKeyEvent *event)
+/*void BotonJuego::keyPressEvent(QKeyEvent *event)
 {
     switch (event->key()) {
     case Qt::Key_Up:
         this->setPos(this->x(), this->y() - 5);
         break;
     }
-}
+}*/
 
 void BotonJuego::mousePressEvent(QGraphicsSceneMouseEvent* event) {
   Q_UNUSED(event);

@@ -13,7 +13,7 @@ signals:
  void clicked();
 
 protected:
-    void keyPressEvent(QKeyEvent *event) override;
+    //void keyPressEvent(QKeyEvent *event) override;
     void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
 
 };

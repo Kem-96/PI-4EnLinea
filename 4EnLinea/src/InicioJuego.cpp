@@ -29,7 +29,6 @@ extern "C" void imp(){
     cout << tablero;
 }
 
-
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {  
@@ -114,7 +113,7 @@ void InicioJuego::crearEscenaInicioJuego()
     qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
     this->titulo->setPos(tituloJuegoX, 15);
     this->addItem(this->titulo);
-
+    /*
     Q_ASSERT(this->fila1 == nullptr);
     this->fila1 = new BotonJuego();
     this->fila1->setSharedRenderer(this->svgRenderer);
@@ -170,6 +169,44 @@ void InicioJuego::crearEscenaInicioJuego()
     this->fila7->setPos(436, 90);
     this->addItem(this->fila7);
     this->connect(this->fila7, &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
+    */
+//------------------------------------------------------
+    int x = 120;
+    for (int i = 0; i < 7; i++){
+        this->botones[i] = new BotonJuego();
+        this->botones[i]->setSharedRenderer(this->svgRenderer);
+        this->botones[i]->setElementId("botonJuego3");
+        this->botones[i]->setPos(x, 90);
+        this->addItem(this->botones[i]);
+        switch (i) {
+        case 0:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila1Presionado);
+            break;
+        case 1:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila2Presionado);
+            break;
+        case 2:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila3Presionado);
+            break;
+        case 3:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila4Presionado);
+            break;
+        case 4:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila5Presionado);
+            break;
+        case 5:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila6Presionado);
+            break;
+        case 6:
+            this->connect(this->botones[i], &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
+            break;
+        default:
+            break;
+        }
+        x += 53;
+    }
+
+//------------------------------------------------------
 
     QFont fuenteReinicio("Calibri", 12);
     Q_ASSERT(this->reinicio == nullptr);
@@ -198,15 +235,13 @@ void InicioJuego::crearEscenaInicioJuego()
 
 void InicioJuego::traducir(int reinicio){
 
-
     for(int i = 0; i < 42; i++){
-       // cout << tablero[i*2] << endl;
-        if(tablero[i*2] == '1'){
+        if(tablero[i*2] == '1' && reinicio == 0){
 
             fichas[i]->setElementId("ficha1");
 
         }
-        else if(tablero[i*2] == '2'){
+        else if(tablero[i*2] == '2' && reinicio == 0){
             fichas[i]->setElementId("ficha2");
 
         }
