@@ -110,7 +110,7 @@ VentanaJuego::VentanaJuego(QWidget *parent)
 void VentanaJuego::empezarJuego()
 {
     this->setScene(&this->inicioJuego);
-    std::cerr << "VentanaJuego::empezarJuego()" <<std::endl;
+
 }
 
 void VentanaJuego::mostrarIntegrantes()

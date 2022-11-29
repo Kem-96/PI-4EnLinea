@@ -22,9 +22,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.72450394"
-     inkscape:cx="64.181845"
-     inkscape:cy="679.77546"
+     inkscape:zoom="2.0492066"
+     inkscape:cx="66.611146"
+     inkscape:cy="1018.6869"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -216,25 +216,23 @@
        transform="scale(0.75)" />
   </g>
   <g
-     id="celda"
-     transform="matrix(1.0342924,0,0,1.0342924,-25.586143,-566.04185)">
+     id="celda">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.708848;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       d="M 38.49924,1285.7504 V 1260 H 64.24962 90 v 25.7504 25.7504 H 64.24962 38.49924 Z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.733156;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 14.233328,763.80002 v -26.63345 h 26.633423 26.633422 v 26.63345 26.63344 H 40.866751 14.233328 Z"
        id="path4642" />
     <circle
-       style="fill:#fff5f5;fill-opacity:1;stroke:#000000;stroke-width:1.04702;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-       id="path6844"
-       cx="64.125"
-       cy="1285.875"
-       r="25.351492" />
+       style="fill:#add8e6;fill-opacity:1;stroke:#000000;stroke-width:1.08292;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="dxhfds"
+       cx="40.737858"
+       cy="763.92889"
+       r="26.220856" />
   </g>
   <g
-     id="ficha1"
-     transform="translate(-29.170205,-522.25193)">
+     id="ficha1">
     <g
        id="ficha1.1"
-       transform="matrix(1.0342924,0,0,1.0342924,99.850312,-43.198168)">
+       transform="matrix(1.0342924,0,0,1.0342924,70.680107,-565.4501)">
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.708848;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          d="M 38.49924,1285.7504 V 1260 H 64.24962 90 v 25.7504 25.7504 H 64.24962 38.49924 Z"
@@ -248,7 +246,7 @@
     </g>
     <path
        style="fill:#2ed0b8;fill-opacity:1;stroke:#000000;stroke-width:1.32658;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-       d="m 158.25431,1311.345 c -9.234,-3.1485 -15.45274,-10.2215 -17.46607,-19.8652 -3.49495,-16.7407 11.70026,-32.7966 28.72068,-30.3475 10.40347,1.497 19.07662,9.1282 21.66385,19.0612 3.57735,13.7344 -4.79472,27.8833 -18.71945,31.6359 -4.1255,1.1117 -10.1174,0.9073 -14.19901,-0.4844 z"
+       d="m 129.0841,789.09307 c -9.23399,-3.1485 -15.45273,-10.2215 -17.46606,-19.8652 -3.49495,-16.7407 11.70025,-32.7966 28.72067,-30.3475 10.40347,1.497 19.07662,9.1282 21.66385,19.0612 3.57735,13.7344 -4.79472,27.8833 -18.71945,31.6359 -4.1255,1.1117 -10.1174,0.9073 -14.19901,-0.4844 z"
        id="fichaColor" />
   </g>
   <g
