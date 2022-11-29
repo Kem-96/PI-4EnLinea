@@ -7,6 +7,8 @@ class QGraphicsSvgItem;
 class QSvgRenderer;
 class BotonJuego;
 
+class GifAnimation;
+class DuScene;
 
 class InicioJuego : public EscenaJuego
 {
@@ -38,7 +40,6 @@ protected:
     BotonJuego* fila5 = nullptr;
     BotonJuego* fila6 = nullptr;
     BotonJuego* fila7 = nullptr;
-    //QGraphicsSvgItem* tablero = nullptr;
     QGraphicsSvgItem* ficha1 = nullptr;
     QGraphicsSvgItem* ficha2 = nullptr;
     BotonJuego* botonAtras = nullptr;
@@ -57,12 +58,12 @@ signals:
     void botonReinicioPresionado();
 
 
-//subrutinas
 protected slots:
 
 
 private:
     QGraphicsSvgItem* j_actual;
+    GifAnimation* pochita;
 };
 
 #endif // INICIOJUEGO_HPP

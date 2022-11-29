@@ -14,12 +14,11 @@ section .data
 	match: db 0
 	
 section .bss
-    valor: resb 2
-    tempPosix: resb 2
+        valor: resb 2
+        tempPosix: resb 2
 	posicion: resb 2
 	
 section .txt
-	extern imp, ejemplo, ExitProcess
 
 inicio:
 	mov r8b, [jugador]
@@ -75,8 +74,7 @@ set:
 	lea r11, [tablero]
 	mov [r11+rax], r8b
 	mov [tempPosix], r10
-	call resetIndice
-	call imp
+        call resetIndice
 	mov al, [casillasLlenas]
 	inc al
 	mov [casillasLlenas], al
@@ -262,5 +260,5 @@ resetIndice:
 	ret
   
 fin:
-	ret
+        ret
 	

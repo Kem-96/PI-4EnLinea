@@ -1,6 +1,9 @@
 #include <QGraphicsTextItem>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
+#include <QFrame>
+#include <QLabel>
+
 #include <iostream>
 #include <time.h>
 #include <stdlib.h>
@@ -8,11 +11,9 @@
 #include <string>
 #include <cstring>
 #include <stdio.h>
-#include <QFrame>
-#include <QLabel>
+
 #include "InicioJuego.hpp"
 #include "BotonJuego.hpp"
-
 
 using namespace std;
 
@@ -24,15 +25,10 @@ char tablero[84] = {'0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0'
                     '0', ' ','0', ' ', '0', ' ','0', ' ', '0', ' ','0', ' ', '0', '\n'};
 
 
-
-extern "C" void imp(){
-    cout << tablero;
-}
-
 InicioJuego::InicioJuego(QSvgRenderer* svgRenderer, QObject *parent)
     : EscenaJuego(svgRenderer, parent)
 {  
-    this->crearEscenaInicioJuego();
+    this->crearEscenaInicioJuego(); 
 }
 
 void InicioJuego::crearEscenaInicioJuego()
@@ -55,12 +51,24 @@ void InicioJuego::crearEscenaInicioJuego()
 
     this->addWidget(label);
 
+    //Imagen
+    QLabel* imagen = new QLabel();
+    imagen->setGeometry(QRect(105, 485, 21, 20));
+    imagen->setFixedHeight(125);
+    imagen->setFixedWidth(385);
+
+    QString url = "../4enLinea/pochita.PNG";
+    QPixmap img(url);
+    imagen->setPixmap(img);
+    imagen->setScaledContents(true);
+
+    this->addWidget(imagen);
 
     QLabel* label1 = new QLabel();
     label1->setFrameStyle(QFrame::Box | QFrame::Plain);
-    label1->setGeometry(QRect(105, 485, 21, 20));
+    label1->setGeometry(QRect(495, 485, 21, 20));
     label1->setFixedHeight(125);
-    label1->setFixedWidth(525);
+    label1->setFixedWidth(135);
     label1->setStyleSheet("background-color: rgba(102, 255, 255, 90);");
 
     this->addWidget(label1);
@@ -74,7 +82,16 @@ void InicioJuego::crearEscenaInicioJuego()
 
     this->addWidget(label2);
 
+    QLabel* label3 = new QLabel();
+    label3->setFrameStyle(QFrame::Box | QFrame::Plain);
+    label3->setGeometry(QRect(105, 485, 21, 20));
+    label3->setFixedHeight(125);
+    label3->setFixedWidth(385);
+    label3->setStyleSheet("background-color: rgba(255, 255, 255, 10);");
 
+    this->addWidget(label3);
+
+    //jugadores
     QGraphicsSvgItem* jugadores[2]; //{1 , 2}
 
     QFont fuenteJugador_actual("Calibri", 14);
@@ -85,6 +102,7 @@ void InicioJuego::crearEscenaInicioJuego()
 
     this->jugador_actual->setPos(520,120);
     this->addItem(jugador_actual);
+
     //jugador #1
     jugadores[0] = new QGraphicsSvgItem();
     jugadores[0]->setSharedRenderer(this->svgRenderer);
@@ -113,63 +131,7 @@ void InicioJuego::crearEscenaInicioJuego()
     qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
     this->titulo->setPos(tituloJuegoX, 15);
     this->addItem(this->titulo);
-    /*
-    Q_ASSERT(this->fila1 == nullptr);
-    this->fila1 = new BotonJuego();
-    this->fila1->setSharedRenderer(this->svgRenderer);
-    this->fila1->setElementId("botonJuego3");
-    this->fila1->setPos(120, 90);
-    this->addItem(this->fila1);
-    this->connect(this->fila1, &BotonJuego::clicked, this, &InicioJuego::botonFila1Presionado);
 
-    Q_ASSERT(this->fila2 == nullptr);
-    this->fila2 = new BotonJuego();
-    this->fila2->setSharedRenderer(this->svgRenderer);
-    this->fila2->setElementId("botonJuego3");
-    this->fila2->setPos(174, 90);
-    this->addItem(this->fila2);
-    this->connect(this->fila2, &BotonJuego::clicked, this, &InicioJuego::botonFila2Presionado);
-
-    Q_ASSERT(this->fila3 == nullptr);
-    this->fila3 = new BotonJuego();
-    this->fila3->setSharedRenderer(this->svgRenderer);
-    this->fila3->setElementId("botonJuego3");
-    this->fila3->setPos(226, 90);
-    this->addItem(this->fila3);
-    this->connect(this->fila3, &BotonJuego::clicked, this, &InicioJuego::botonFila3Presionado);
-
-    Q_ASSERT(this->fila4 == nullptr);
-    this->fila4 = new BotonJuego();
-    this->fila4->setSharedRenderer(this->svgRenderer);
-    this->fila4->setElementId("botonJuego3");
-    this->fila4->setPos(278, 90);
-    this->addItem(this->fila4);
-    this->connect(this->fila4, &BotonJuego::clicked, this, &InicioJuego::botonFila4Presionado);
-
-    Q_ASSERT(this->fila5 == nullptr);
-    this->fila5 = new BotonJuego();
-    this->fila5->setSharedRenderer(this->svgRenderer);
-    this->fila5->setElementId("botonJuego3");
-    this->fila5->setPos(332, 90);
-    this->addItem(this->fila5);
-    this->connect(this->fila5, &BotonJuego::clicked, this, &InicioJuego::botonFila5Presionado);
-
-    Q_ASSERT(this->fila6 == nullptr);
-    this->fila6 = new BotonJuego();
-    this->fila6->setSharedRenderer(this->svgRenderer);
-    this->fila6->setElementId("botonJuego3");
-    this->fila6->setPos(384, 90);
-    this->addItem(this->fila6);
-    this->connect(this->fila6, &BotonJuego::clicked, this, &InicioJuego::botonFila6Presionado);
-
-    Q_ASSERT(this->fila7 == nullptr);
-    this->fila7 = new BotonJuego();
-    this->fila7->setSharedRenderer(this->svgRenderer);
-    this->fila7->setElementId("botonJuego3");
-    this->fila7->setPos(436, 90);
-    this->addItem(this->fila7);
-    this->connect(this->fila7, &BotonJuego::clicked, this, &InicioJuego::botonFila7Presionado);
-    */
 //------------------------------------------------------
     int x = 120;
     for (int i = 0; i < 7; i++){
@@ -205,32 +167,27 @@ void InicioJuego::crearEscenaInicioJuego()
         }
         x += 53;
     }
-
 //------------------------------------------------------
 
-    QFont fuenteReinicio("Calibri", 12);
+    QFont fuenteReinicio("Calibri", 14);
+    fuenteReinicio.setBold(true);
     Q_ASSERT(this->reinicio == nullptr);
     this->reinicio = new QGraphicsTextItem("Reinicio");
     this->reinicio->setFont(fuenteReinicio);
-    //qreal tituloJuegoX = (700 - this->titulo->boundingRect().width())/2.0;
-    this->reinicio->setPos(555, 520);
+    this->reinicio->setPos(525, 490);
     this->addItem(this->reinicio);
 
     Q_ASSERT(this->botonReinicio == nullptr);
     this->botonReinicio = new BotonJuego();
     this->botonReinicio->setSharedRenderer(this->svgRenderer);
     this->botonReinicio->setElementId("botonReinicio");
-    this->botonReinicio->setPos(565, 555);
+    this->botonReinicio->setPos(545, 535);
     this->addItem(this->botonReinicio);
     this->connect(this->botonReinicio, &BotonJuego::clicked, this, &InicioJuego::botonReinicioPresionado);
 
     //---------------------llenar tablero vacio--------------------------
-
     crearTablero();
-
     //--------------------------------------------------------------------
-
-
 }
 
 void InicioJuego::traducir(int reinicio){
@@ -283,4 +240,7 @@ QGraphicsSvgItem* InicioJuego::getActual(){
 
     return this->j_actual;
 }
+
+
+//Referencias: https://www.youtube.com/watch?v=oGsBh36tNuc&ab_channel=DuarteCorporationTutoriales
 

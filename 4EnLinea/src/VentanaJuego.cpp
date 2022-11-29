@@ -24,12 +24,8 @@ int flagColumnaLlena = 0;
 int ganador = 0;
 
 string gana = "Ha ganado el jugador ";
-string testo = "Columna Llena\n";
 string reinicioGanador = "¿Quiere reiniciar el juego?";
 
-extern "C" void ejemplo(){
-    cout << testo;
-}
 
 void solicitudReinicio(){
     cout << "¿Quiere reiniciar el juego?" << endl;
@@ -62,7 +58,6 @@ void VentanaJuego::simulacionBoton(int col){
         reinicioVentana();
     }
     else if (flagColumnaLlena == 1){
-        ejemplo();
         flagColumnaLlena = 0;
     }
     else
@@ -79,7 +74,9 @@ VentanaJuego::VentanaJuego(QWidget *parent)
     , instrucciones(this->svgRenderer)
 {
     this->setScene(&this->menu);
-    this->backgroundBrush();
+    this->setStyleSheet("background-color: rgb(173, 216, 230);");
+
+
     this->connect(&this->menu, &Menu::botonDePlayPresionado, this, &VentanaJuego::empezarJuego);
     this->connect(&this->menu, &Menu::botonIntegrantesPresionado, this, &VentanaJuego::mostrarIntegrantes);
     this->connect(&this->menu, &Menu::botonInstruccionesPresionado, this, &VentanaJuego::mostrarInstrucciones);
@@ -135,22 +132,16 @@ void VentanaJuego::volverMenu()
 
 int VentanaJuego::fila1()
 {
-
     simulacionBoton(0);
     inicioJuego.traducir(0);
-    //inicioJuego.crearTablero();
-    std::cerr << columna <<std::endl;
 
     return columna;
 }
 
 int VentanaJuego::fila2()
 {
-    /*columna = 1;
-    inicio();*/
     simulacionBoton(1);
     inicioJuego.traducir(0);
-    std::cerr << columna <<std::endl;
 
     return columna;
 }
@@ -159,7 +150,6 @@ int VentanaJuego::fila3()
 {
     simulacionBoton(2);
     inicioJuego.traducir(0);
-    std::cerr << columna <<std::endl;
 
     return columna;
 }
@@ -168,7 +158,6 @@ int VentanaJuego::fila4()
 {
     simulacionBoton(3);
     inicioJuego.traducir(0);
-    std::cerr << columna <<std::endl;
 
     return columna;
 }
@@ -177,8 +166,6 @@ int VentanaJuego::fila5()
 {
     simulacionBoton(4);
     inicioJuego.traducir(0);
-    std::cerr << columna <<std::endl;
-
     return columna;
 }
 
@@ -186,8 +173,6 @@ int VentanaJuego::fila6()
 {
     simulacionBoton(5);
     inicioJuego.traducir(0);
-    std::cerr << columna <<std::endl;
-
     return columna;
 }
 
@@ -195,8 +180,6 @@ int VentanaJuego::fila7()
 {
     simulacionBoton(6);
     inicioJuego.traducir(0);
-    std::cerr <<columna <<std::endl;
-
     return columna;
 }
 
@@ -210,7 +193,6 @@ void VentanaJuego::reiniciar()
 
 void VentanaJuego::reinicioVentana()
 {
-    //Inspirado en https://doc.qt.io/qt-6/qmessagebox.html
     QMessageBox msgBox;
     msgBox.setText(reinicioGanador.c_str());
     msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Ok);
@@ -225,7 +207,7 @@ void VentanaJuego::reinicioVentana()
 }
 
 void VentanaJuego::agregarGanador(){
-    reinicioGanador = gana + std::to_string(jugador - 48) + ". ¿Quieres reiniciar el juegamen?";
+    reinicioGanador = gana + std::to_string(jugador - 48) + ". ¿Quiere volver a jugar?";
     QMessageBox msgBox;
     msgBox.setText(reinicioGanador.c_str());
     msgBox.setStandardButtons(QMessageBox::No | QMessageBox::Ok);
@@ -236,5 +218,11 @@ void VentanaJuego::agregarGanador(){
       case QMessageBox::Ok:
           reiniciar();
           break;
+        case QMessageBox::No:
+            reiniciar();
+            this->setScene(&this->menu);
     }
 }
+
+//Referencia:
+//https://doc.qt.io/qt-6/qmessagebox.html
